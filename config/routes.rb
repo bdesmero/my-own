@@ -4,5 +4,6 @@ MyOwn::Application.routes.draw do
   
   resource :dashboard, :controller => 'dashboard', :only => :show
   resource :user, :controller => 'user', :only => :edit
+  resource :session, :controller => 'session', :only => [:new, :create, :destroy]
   
 end
