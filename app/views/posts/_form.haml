@@ -1,0 +1,14 @@
+#post-form
+  =form_for @post do |f|
+    .control-group
+      .controls
+        =f.date_select :published_date, :class => 'form-date'
+    
+    .control-group
+      .controls
+        =f.text_field :title, :class => 'input-xxlarge', :placeholder => 'Post Title'
+    .control-group
+      .controls
+        =f.text_area :content, :placeholder => 'Post Content', :rows => 15, :id => 'post-content'
+     
+    =f.submit 'Save', :class => 'btn btn-primary btn-post-save pull-right'

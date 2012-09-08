@@ -2913,3 +2913,3639 @@ Served asset /session.css - 304 Not Modified (3ms)
 
 Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:40:08 +0800
 Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 22:15:50 +0800
+Connecting to database specified by database.yml
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.4ms)
+  Rendered shared/_header_nav.haml (3.0ms)
+Completed 200 OK in 101ms (Views: 100.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 22:15:51 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 22:15:51 +0800
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 22:15:51 +0800
+Served asset /dashboard.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 22:15:51 +0800
+Served asset /session.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 22:15:51 +0800
+Served asset /shared.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 22:15:51 +0800
+Served asset /user.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 22:15:51 +0800
+Served asset /jquery.js - 304 Not Modified (51ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 22:15:51 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 22:15:51 +0800
+Served asset /bootstrap.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 22:15:51 +0800
+Served asset /dashboard.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 22:15:51 +0800
+Served asset /session.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 22:15:51 +0800
+Served asset /user.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 22:15:51 +0800
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 22:16:21 +0800
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:3000/session/new
+Filter chain halted as :login_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2012-09-08 22:16:21 +0800
+Processing by SessionController#new as HTML
+  Rendered session/new.haml within layouts/session (3.7ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 22:16:21 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 22:16:21 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 22:16:21 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 22:16:21 +0800
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 22:16:21 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 22:16:21 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 22:16:21 +0800
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 22:16:21 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 22:16:21 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 22:16:21 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 22:16:21 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 22:16:21 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 22:16:21 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 22:16:26 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+VtJaoWR/VkaaXTJ31haxY+Wyz08GufhPtOrzatsOIg=", "username"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'admin' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 200ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 22:16:26 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (0.7ms)
+Completed 200 OK in 41ms (Views: 41.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 22:16:28 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"+VtJaoWR/VkaaXTJ31haxY+Wyz08GufhPtOrzatsOIg="}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1
+  Rendered session/new.haml within layouts/session (2.6ms)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 22:16:31 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+VtJaoWR/VkaaXTJ31haxY+Wyz08GufhPtOrzatsOIg=", "username"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'admin' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 93ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 22:16:31 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (0.7ms)
+Completed 200 OK in 15ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (2.6ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120907181745)
+Migrating to CreatePosts (20120908141724)
+  [1m[35m (114.2ms)[0m  CREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `content` text, `published_date` date, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (54.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120908141724')[0m
+  [1m[35m (0.4ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 23:11:20 +0800
+Connecting to database specified by database.yml
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:3000/session/new
+Filter chain halted as :login_required rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 23:11:21 +0800
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:3000/session/new
+Filter chain halted as :login_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2012-09-08 23:11:21 +0800
+Processing by SessionController#new as HTML
+  Rendered session/new.haml within layouts/session (5.1ms)
+Completed 200 OK in 741ms (Views: 740.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 23:11:22 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 23:11:22 +0800
+Served asset /bootstrap.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 23:11:22 +0800
+Served asset /dashboard.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 23:11:22 +0800
+Served asset /session.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 23:11:22 +0800
+Served asset /session.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 23:11:22 +0800
+Served asset /user.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 23:11:22 +0800
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 23:11:22 +0800
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 23:11:22 +0800
+Served asset /dashboard.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 23:11:22 +0800
+Served asset /shared.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 23:11:22 +0800
+Served asset /user.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 23:11:22 +0800
+Served asset /jquery.js - 304 Not Modified (54ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 23:11:23 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 23:14:20 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0hDQM1sfHLO2dSS6RhqCqd+eG/T3FVG8Tk3dW0hnWZk=", "username"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'admin' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 343ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 23:14:20 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.7ms)
+  Rendered shared/_header_nav.haml (3.1ms)
+Completed 200 OK in 146ms (Views: 145.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 23:14:21 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 23:14:21 +0800
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 23:14:21 +0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 23:14:21 +0800
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 23:14:21 +0800
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 23:14:21 +0800
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 23:14:21 +0800
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 23:14:21 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 23:14:21 +0800
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 23:14:21 +0800
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 23:14:21 +0800
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 23:14:21 +0800
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 23:14:21 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+Connecting to database specified by database.yml
+  [1m[36m (112.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (198.7ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (16.8ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120907181745)
+  [1m[35m (103.8ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `username` varchar(255), `password_hash` varchar(255), `password_salt` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (43.4ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120907181745')[0m
+Migrating to CreatePosts (20120908141724)
+  [1m[35m (106.4ms)[0m  CREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `content` text, `published_date` date, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (54.2ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120908141724')[0m
+  [1m[35m (0.4ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+  [1m[36m (2.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `users` (`created_at`, `password_hash`, `password_salt`, `updated_at`, `username`) VALUES ('2012-09-08 15:17:08', '$2a$10$RTsttzqpxrWXR6ZM4LMpSep0PvbWtMK/l7j7PHdEeU7iCBh3u3NmW', '$2a$10$RTsttzqpxrWXR6ZM4LMpSe', '2012-09-08 15:17:08', 'admin')[0m
+  [1m[35m (46.0ms)[0m  COMMIT
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 23:20:45 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (0.8ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 23:20:45 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 23:20:45 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 23:20:45 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 23:20:45 +0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 23:20:45 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 23:20:45 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 23:20:45 +0800
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 23:20:45 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 23:20:45 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 23:20:45 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 23:20:45 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 23:20:45 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 23:20:45 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 23:20:46 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"0hDQM1sfHLO2dSS6RhqCqd+eG/T3FVG8Tk3dW0hnWZk="}
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1
+  Rendered session/new.haml within layouts/session (2.7ms)
+Completed 200 OK in 24ms (Views: 14.2ms | ActiveRecord: 2.6ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 23:20:50 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0hDQM1sfHLO2dSS6RhqCqd+eG/T3FVG8Tk3dW0hnWZk=", "username"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'admin' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 94ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 23:20:50 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (0.7ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:24:43 +0800
+
+ActionController::RoutingError (uninitialized constant PostsController):
+  activesupport (3.2.8) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.8) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.8) lib/active_support/inflector/methods.rb:229:in `constantize'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  sass (3.2.1) lib/sass/plugin/rack.rb:54:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__3951757492068618297__call__1038901520241507814__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/bia/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/bia/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/bia/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:27:19 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.3ms)
+Compiled posts.css  (160ms)  (pid 2697)
+Compiled application.css  (205ms)  (pid 2697)
+Compiled posts.js  (0ms)  (pid 2697)
+Compiled application.js  (171ms)  (pid 2697)
+  Rendered shared/_header_nav.haml (1.5ms)
+Completed 200 OK in 506ms (Views: 505.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 23:27:20 +0800
+Served asset /posts.js - 200 OK (3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 23:27:20 +0800
+Served asset /posts.css - 200 OK (4ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (3.1ms)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Served asset /session.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (48ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 23:27:57 +0800
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (3.0ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 23:28:15 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (2.4ms)
+Completed 200 OK in 13ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 23:34:30 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (3.3ms)
+Completed 200 OK in 25ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 23:50:21 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (3.1ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:29 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (3.4ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Served asset /session.css - 200 OK (1ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 23:54:48 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:55:05 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (1.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+    5:       
+    6:       %ul.nav
+    7:         %li.dropdown
+    8:             %a{:href => '#', :class => 'dropdown-toggle', 'data-toggle' => 'dropdown'} Posts
+    9:         %li.divider-vertical        
+    10:         %li= link_to 'Logout', session_path, :method => :destroy
+    11:         
+  app/views/shared/_header_nav.haml:8
+  app/views/layouts/application.haml:11:in `_app_views_layouts_application_haml___960573414596887273_32809800'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.3ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (3.3ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 23:55:12 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:56:59 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (16.5ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined local variable or method `current_user' for #<#<Class:0x007f954405b578>:0x007f95440676c0>):
+    7:         %li.dropdown
+    8:           %a{:href => '#', :class => 'dropdown-toggle', 'data-toggle' => 'dropdown'} Posts
+    9:         %li.divider-vertical
+    10:         %li= link_to current_user.username, '#'        
+    11:         %li= link_to 'Logout', session_path, :method => :destroy
+    12:         
+  app/views/shared/_header_nav.haml:10:in `_app_views_shared__header_nav_haml___3259190020784935540_70139500443940'
+  app/views/layouts/application.haml:11:in `_app_views_layouts_application_haml___960573414596887273_32809800'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.3ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:57:22 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (14.4ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined local variable or method `current_user' for #<#<Class:0x00000003ca9a38>:0x000000041d6420>):
+    7:         %li.dropdown
+    8:           %a{:href => '#', :class => 'dropdown-toggle', 'data-toggle' => 'dropdown'} Posts
+    9:         %li.divider-vertical
+    10:         %li= link_to current_user.username, '#'        
+    11:         %li= link_to 'Logout', session_path, :method => :destroy
+    12:         
+  app/views/shared/_header_nav.haml:10:in `_app_views_shared__header_nav_haml___3259190020784935540_70139500443940'
+  app/views/layouts/application.haml:11:in `_app_views_layouts_application_haml___960573414596887273_32809800'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.6ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:57:43 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (47.4ms)
+Completed 500 Internal Server Error in 57ms
+
+ActionView::Template::Error (undefined local variable or method `current_user' for #<#<Class:0x007f95545b0c20>:0x007f953c033d78>):
+    7:         %li.dropdown
+    8:           %a{:href => '#', :class => 'dropdown-toggle', 'data-toggle' => 'dropdown'} Posts
+    9:         %li.divider-vertical
+    10:         %li= link_to current_user.username, '#'        
+    11:         %li= link_to 'Logout', session_path, :method => :destroy
+    12:         
+  app/views/shared/_header_nav.haml:10:in `_app_views_shared__header_nav_haml___3259190020784935540_70139500443940'
+  app/views/layouts/application.haml:11:in `_app_views_layouts_application_haml___960573414596887273_32809800'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.6ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:58:14 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (3.6ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    7:         %li.dropdown
+    8:           %a{:href => '#', :class => 'dropdown-toggle', 'data-toggle' => 'dropdown'} Posts
+    9:         %li.divider-vertical
+    10:         %li= link_to @current_user.username, '#'        
+    11:         %li= link_to 'Logout', session_path, :method => :destroy
+    12:         
+  app/views/shared/_header_nav.haml:10:in `_app_views_shared__header_nav_haml___3259190020784935540_70139534340100'
+  app/views/layouts/application.haml:11:in `_app_views_layouts_application_haml___960573414596887273_32809800'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:59:22 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (3.6ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    7:         %li.dropdown
+    8:           %a{:href => '#', :class => 'dropdown-toggle', 'data-toggle' => 'dropdown'} Posts
+    9:         %li.divider-vertical
+    10:         %li= link_to @current_user.username, '#'        
+    11:         %li= link_to 'Logout', session_path, :method => :destroy
+    12:         
+  app/views/shared/_header_nav.haml:10:in `_app_views_shared__header_nav_haml___3259190020784935540_70139634963640'
+  app/views/layouts/application.haml:11:in `_app_views_layouts_application_haml___960573414596887273_32809800'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (35.6ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (42.1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:59:46 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (1.2ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    7:         %li.dropdown
+    8:           %a{:href => '#', :class => 'dropdown-toggle', 'data-toggle' => 'dropdown'} Posts
+    9:         %li.divider-vertical
+    10:         %li= link_to @current_user.username, '#'        
+    11:         %li= link_to 'Logout', session_path, :method => :destroy
+    12:         
+  app/views/shared/_header_nav.haml:10:in `_app_views_shared__header_nav_haml___3259190020784935540_70139634963640'
+  app/views/layouts/application.haml:11:in `_app_views_layouts_application_haml___960573414596887273_32809800'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.4ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-08 23:59:56 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (3.8ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 23:59:56 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 23:59:56 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 23:59:56 +0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-08 23:59:56 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 23:59:56 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 23:59:56 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 23:59:56 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 23:59:56 +0800
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 23:59:56 +0800
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 23:59:56 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 23:59:57 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-08 23:59:57 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 23:59:57 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 23:59:57 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 23:59:57 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:00:24 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (53.3ms)
+Completed 500 Internal Server Error in 66ms
+
+ActionView::Template::Error (undefined local variable or method `current_user' for #<#<Class:0x007f95442546e0>:0x007f95401514e0>):
+    7:         %li.dropdown
+    8:           %a{:href => '#', :class => 'dropdown-toggle', 'data-toggle' => 'dropdown'} Posts
+    9:         %li.divider-vertical
+    10:         %li= link_to current_user, '#'        
+    11:         %li= link_to 'Logout', session_path, :method => :destroy
+    12:         
+  app/views/shared/_header_nav.haml:10:in `_app_views_shared__header_nav_haml___3259190020784935540_70139501307620'
+  app/views/layouts/application.haml:11:in `_app_views_layouts_application_haml___960573414596887273_32809800'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.6ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:02:23 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (17.5ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionView::Template::Error (undefined local variable or method `current_user' for #<#<Class:0x007f95442546e0>:0x00000003fbd558>):
+    7:         %li.dropdown
+    8:           %a{:href => '#', :class => 'dropdown-toggle', 'data-toggle' => 'dropdown'} Posts
+    9:         %li.divider-vertical
+    10:         %li= link_to current_user.username, '#'        
+    11:         %li= link_to 'Logout', session_path, :method => :destroy
+    12:         
+  app/views/shared/_header_nav.haml:10:in `_app_views_shared__header_nav_haml___3259190020784935540_70139670776920'
+  app/views/layouts/application.haml:11:in `_app_views_layouts_application_haml___960573414596887273_32809800'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:02:49 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (49.7ms)
+Completed 500 Internal Server Error in 59ms
+
+ActionView::Template::Error (undefined local variable or method `current_user' for #<#<Class:0x007f95500d2220>:0x007f95500d7478>):
+    7:         %li.dropdown
+    8:           %a{:href => '#', :class => 'dropdown-toggle', 'data-toggle' => 'dropdown'} Posts
+    9:         %li.divider-vertical
+    10:         %li= link_to current_user.username, '#'        
+    11:         %li= link_to 'Logout', session_path, :method => :destroy
+    12:         
+  app/views/shared/_header_nav.haml:10:in `_app_views_shared__header_nav_haml___3259190020784935540_70139670776920'
+  app/views/layouts/application.haml:11:in `_app_views_layouts_application_haml___960573414596887273_32809800'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.5ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:03:42 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (17.1ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (undefined local variable or method `current_user' for #<#<Class:0x007f95500d2220>:0x00000003e9a838>):
+    7:         %li.dropdown
+    8:           %a{:href => '#', :class => 'dropdown-toggle', 'data-toggle' => 'dropdown'} Posts
+    9:         %li.divider-vertical
+    10:         %li= current_user.username       
+    11:         %li= link_to 'Logout', session_path, :method => :destroy
+    12:         
+  app/views/shared/_header_nav.haml:10:in `_app_views_shared__header_nav_haml___3259190020784935540_70139671727860'
+  app/views/layouts/application.haml:11:in `_app_views_layouts_application_haml___960573414596887273_32809800'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.5ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (3.4ms)
+Completed 200 OK in 47ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:04:08 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:07:34 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (1.0ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %a and nested within it.):
+    6:       %ul.nav
+    7:         %li.dropdown
+    8:           %a{:href => '#', :class => 'dropdown-toggle', 'data-toggle' => 'dropdown'} Posts
+    9:             %b{:class => 'caret'}
+    10:           %ul.dropdown-menu
+    11:             %li= link_to 'All', posts_path
+    12:             %li= link_to 'New', new_post_path 
+  app/views/shared/_header_nav.haml:9
+  app/views/layouts/application.haml:11:in `_app_views_layouts_application_haml___960573414596887273_32809800'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:08:15 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (1.2ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (Illegal nesting: content can't be both given on the same line as %a and nested within it.):
+    6:       %ul.nav
+    7:         %li.dropdown
+    8:           %a{:href => '#', :class => 'dropdown-toggle', 'data-toggle' => 'dropdown'} Posts
+    9:             %b.caret
+    10:             
+    11:           %ul.dropdown-menu
+    12:             %li= link_to 'All', posts_path
+  app/views/shared/_header_nav.haml:9
+  app/views/layouts/application.haml:11:in `_app_views_layouts_application_haml___960573414596887273_32809800'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (36.7ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (43.2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (4.0ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:08:41 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-09 00:08:45 +0800
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
+  actionpack (3.2.8) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  sass (3.2.1) lib/sass/plugin/rack.rb:54:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__3951757492068618297__call__1038901520241507814__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/bia/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/bia/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/bia/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:08:48 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (1.2ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 00:08:50 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (1.3ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-09 00:09:08 +0800
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
+  actionpack (3.2.8) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  sass (3.2.1) lib/sass/plugin/rack.rb:54:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__3951757492068618297__call__1038901520241507814__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/bia/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/bia/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/bia/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 00:12:24 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (3.9ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-09-09 00:12:25 +0800
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
+  actionpack (3.2.8) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  sass (3.2.1) lib/sass/plugin/rack.rb:54:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__3951757492068618297__call__1038901520241507814__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/bia/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/bia/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/bia/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:12:29 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (3.7ms)
+  Rendered posts/new.haml within layouts/application (5.4ms)
+  Rendered shared/_header_nav.haml (1.1ms)
+Completed 200 OK in 37ms (Views: 16.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (3.0ms)
+  Rendered posts/new.haml within layouts/application (3.9ms)
+  Rendered shared/_header_nav.haml (1.1ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:12 +0800
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:13:20 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (2.6ms)
+  Rendered posts/new.haml within layouts/application (3.7ms)
+  Rendered shared/_header_nav.haml (1.2ms)
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:20 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:20 +0800
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:20 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:20 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:20 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:20 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:20 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:20 +0800
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:20 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:21 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:21 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:21 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:21 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:21 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:21 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:13:41 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (5.1ms)
+  Rendered posts/new.haml within layouts/application (6.5ms)
+  Rendered shared/_header_nav.haml (1.2ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:41 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:41 +0800
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:41 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:41 +0800
+Served asset /shared.css - 200 OK (2ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:42 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:42 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:13:42 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:42 +0800
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:42 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:42 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:42 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:42 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:42 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:42 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:13:42 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (4.1ms)
+  Rendered posts/new.haml within layouts/application (5.1ms)
+  Rendered shared/_header_nav.haml (1.2ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:14:06 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (3.8ms)
+  Rendered posts/new.haml within layouts/application (5.2ms)
+  Rendered shared/_header_nav.haml (1.0ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Served asset /posts.css - 200 OK (9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:21 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (4.2ms)
+  Rendered posts/new.haml within layouts/application (5.7ms)
+  Rendered shared/_header_nav.haml (1.1ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Served asset /session.css - 200 OK (36ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:15:55 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (3.6ms)
+  Rendered posts/new.haml within layouts/application (4.5ms)
+  Rendered shared/_header_nav.haml (1.0ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:12 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (5.6ms)
+  Rendered posts/new.haml within layouts/application (6.7ms)
+  Rendered shared/_header_nav.haml (1.0ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Served asset /posts.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Served asset /jquery.js - 200 OK (8ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:16:58 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (7.6ms)
+  Rendered posts/new.haml within layouts/application (9.1ms)
+  Rendered shared/_header_nav.haml (1.3ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:07 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:17:11 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (3.5ms)
+  Rendered posts/new.haml within layouts/application (4.4ms)
+  Rendered shared/_header_nav.haml (1.1ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:11 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:11 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:11 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:11 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:11 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:12 +0800
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:12 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:12 +0800
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:12 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:12 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:12 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:12 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:12 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:12 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:12 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (43.2ms)
+  Rendered posts/new.haml within layouts/application (44.7ms)
+  Rendered shared/_header_nav.haml (1.2ms)
+Completed 200 OK in 56ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:16 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (3.5ms)
+  Rendered posts/new.haml within layouts/application (5.0ms)
+  Rendered shared/_header_nav.haml (1.0ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:26 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (3.5ms)
+  Rendered posts/new.haml within layouts/application (4.4ms)
+  Rendered shared/_header_nav.haml (1.0ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Served asset /posts.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Served asset /jquery_ujs.js - 200 OK (6ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:30 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (5.6ms)
+  Rendered posts/new.haml within layouts/application (6.6ms)
+  Rendered shared/_header_nav.haml (1.1ms)
+Completed 200 OK in 16ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Served asset /session.css - 200 OK (2ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Served asset /posts.css - 200 OK (2ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:17:35 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (7.8ms)
+  Rendered posts/new.haml within layouts/application (9.6ms)
+  Rendered shared/_header_nav.haml (1.1ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Served asset /jquery.js - 200 OK (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:18:41 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (7.1ms)
+  Rendered posts/new.haml within layouts/application (8.3ms)
+Compiled posts.css  (2ms)  (pid 2697)
+Compiled application.css  (2ms)  (pid 2697)
+  Rendered shared/_header_nav.haml (1.9ms)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Served asset /application.css - 200 OK (13ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Served asset /posts.css - 200 OK (2ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:41 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (3.6ms)
+  Rendered posts/new.haml within layouts/application (5.1ms)
+Compiled posts.css  (2ms)  (pid 2697)
+Compiled application.css  (2ms)  (pid 2697)
+  Rendered shared/_header_nav.haml (1.1ms)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Served asset /posts.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:19:48 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (3.2ms)
+  Rendered posts/new.haml within layouts/application (5.1ms)
+Compiled posts.css  (2ms)  (pid 2697)
+Compiled application.css  (2ms)  (pid 2697)
+  Rendered shared/_header_nav.haml (1.2ms)
+Completed 200 OK in 75ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Served asset /posts.css - 200 OK (7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:07 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 00:20:14 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (2.0ms)
+  Rendered posts/new.haml within layouts/application (3.0ms)
+Compiled posts.css  (3ms)  (pid 2697)
+Compiled application.css  (2ms)  (pid 2697)
+  Rendered shared/_header_nav.haml (1.1ms)
+Completed 200 OK in 37ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 00:20:14 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 00:20:14 +0800
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 00:20:14 +0800
+Served asset /posts.css - 200 OK (2ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 00:20:14 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 00:20:14 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 00:20:14 +0800
+Served asset /shared.css - 200 OK (4ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 00:20:14 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:14 +0800
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:15 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:15 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:15 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:15 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:15 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:15 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 00:20:15 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (4.0ms)
+  Rendered posts/new.haml within layouts/application (5.1ms)
+  Rendered shared/_header_nav.haml (1.1ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 01:05:43 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (7.2ms)
+  Rendered posts/new.haml within layouts/application (8.6ms)
+Compiled posts.css  (2ms)  (pid 2697)
+Compiled application.css  (2ms)  (pid 2697)
+  Rendered shared/_header_nav.haml (1.1ms)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Served asset /posts.css - 200 OK (2ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:30 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (8.8ms)
+  Rendered posts/new.haml within layouts/application (10.5ms)
+  Rendered shared/_header_nav.haml (1.1ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Served asset /shared.css - 200 OK (3ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 01:06:43 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (6.6ms)
+  Rendered posts/new.haml within layouts/application (8.0ms)
+Compiled posts.css  (3ms)  (pid 2697)
+Compiled application.css  (2ms)  (pid 2697)
+  Rendered shared/_header_nav.haml (1.1ms)
+Completed 200 OK in 41ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Served asset /posts.css - 200 OK (5ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Served asset /jquery_ujs.js - 200 OK (55ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 01:08:43 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 01:10:23 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (22.5ms)
+  Rendered posts/new.haml within layouts/application (23.9ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (undefined method `date_field' for #<ActionView::Helpers::FormBuilder:0x00000003ea1570>):
+    2:   =form_for @post do |f|
+    3:     .control-group
+    4:       .controls
+    5:         =f.date_field :published_date
+    6:     
+    7:     .control-group
+    8:       .controls
+  app/views/posts/_form.haml:5:in `block in _app_views_posts__form_haml___1687772296158513813_33432120'
+  app/views/posts/_form.haml:2:in `_app_views_posts__form_haml___1687772296158513813_33432120'
+  app/views/posts/new.haml:3:in `_app_views_posts_new_haml___3873227343640322666_70139534240320'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.3ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 01:11:10 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (22.1ms)
+  Rendered posts/new.haml within layouts/application (23.0ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (undefined method `select_date' for #<ActionView::Helpers::FormBuilder:0x007f953c055608>):
+    2:   =form_for @post do |f|
+    3:     .control-group
+    4:       .controls
+    5:         =f.select_date :published_date
+    6:     
+    7:     .control-group
+    8:       .controls
+  app/views/posts/_form.haml:5:in `block in _app_views_posts__form_haml___1687772296158513813_70139673002640'
+  app/views/posts/_form.haml:2:in `_app_views_posts__form_haml___1687772296158513813_70139673002640'
+  app/views/posts/new.haml:3:in `_app_views_posts_new_haml___3873227343640322666_70139534240320'
+
+
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/bia/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.5ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (114.6ms)
+  Rendered posts/new.haml within layouts/application (115.7ms)
+  Rendered shared/_header_nav.haml (1.1ms)
+Completed 200 OK in 127ms (Views: 126.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 01:11:34 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (4.0ms)
+  Rendered posts/new.haml within layouts/application (4.9ms)
+  Rendered shared/_header_nav.haml (1.0ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Served asset /posts.css - 200 OK (2ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 01:12:17 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (6.4ms)
+  Rendered posts/new.haml within layouts/application (7.3ms)
+Compiled posts.css  (4ms)  (pid 2697)
+Compiled application.css  (2ms)  (pid 2697)
+  Rendered shared/_header_nav.haml (1.1ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Served asset /application.css - 200 OK (17ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Served asset /posts.css - 200 OK (3ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 01:14:13 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 01:15:05 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (4.1ms)
+  Rendered posts/new.haml within layouts/application (5.0ms)
+Compiled posts.css  (5ms)  (pid 2697)
+Compiled application.css  (2ms)  (pid 2697)
+  Rendered shared/_header_nav.haml (1.1ms)
+Completed 200 OK in 75ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 01:15:05 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 01:15:05 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 01:15:05 +0800
+Served asset /posts.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 01:15:05 +0800
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 01:15:05 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 01:15:05 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 01:15:05 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 01:15:05 +0800
+Served asset /jquery.js - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 01:15:06 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 01:15:06 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 01:15:06 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 01:15:06 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 01:15:06 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 01:15:06 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 01:15:06 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Processing by PostsController#new as HTML
+  Rendered posts/_form.haml (4.7ms)
+  Rendered posts/new.haml within layouts/application (5.7ms)
+  Rendered shared/_header_nav.haml (1.0ms)
+Completed 200 OK in 65ms (Views: 15.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-09 01:16:12 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2012-09-09 01:16:27 +0800
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0hDQM1sfHLO2dSS6RhqCqd+eG/T3FVG8Tk3dW0hnWZk=", "post"=>{"published_date(1i)"=>"2012", "published_date(2i)"=>"9", "published_date(3i)"=>"8", "title"=>"September 8 Post", "content"=>"September 8 Post Content"}, "commit"=>"Save"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `posts` (`content`, `created_at`, `published_date`, `title`, `updated_at`) VALUES ('September 8 Post Content', '2012-09-08 17:16:27', '2012-09-08', 'September 8 Post', '2012-09-08 17:16:27')[0m
+  [1m[35m (88.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 98ms (ActiveRecord: 89.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-09 01:16:27 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (1.2ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-09 01:16:27 +0800
+Served asset /posts.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml

@@ -6,4 +6,6 @@ MyOwn::Application.routes.draw do
   resource :user, :controller => 'user', :only => :edit
   resource :session, :controller => 'session', :only => [:new, :create, :destroy]
   
+  resources :posts
+  
 end

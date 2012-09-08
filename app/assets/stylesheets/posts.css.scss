@@ -1,0 +1,34 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#post-form {
+  width: 544px;
+
+  .btn-post-save {
+    font-size: 18px;
+    height: 35px;
+    width: 100px;
+  }
+
+
+  #post_published_date_1i {
+    width: 120px;
+  }
+  
+  
+  #post_published_date_2i {
+    width: 120px;
+  }
+  
+  
+  #post_published_date_3i {
+    width: 120px;
+  }
+
+
+  #post-content {
+    width: 530px;
+  }
+
+}
