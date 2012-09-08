@@ -2013,3 +2013,903 @@ Served asset /user.js - 200 OK (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 11:19:05 +0800
 Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 11:21:44 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (0.7ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 11:21:44 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:21:44 +0800
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 11:21:44 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 11:21:44 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 11:21:44 +0800
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 11:25:24 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (2.2ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 11:25:24 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:25:24 +0800
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 11:25:24 +0800
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 11:25:24 +0800
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:25:24 +0800
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 11:25:24 +0800
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 11:25:24 +0800
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 11:25:24 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 11:25:24 +0800
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 11:25:24 +0800
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 11:25:24 +0800
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 11:25:24 +0800
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 11:25:24 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 11:26:20 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (3.2ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 11:26:20 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 11:26:20 +0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 11:26:20 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 11:26:20 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:26:20 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:26:20 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 11:26:20 +0800
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 11:26:20 +0800
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 11:26:20 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 11:26:20 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 11:26:20 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 11:26:20 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 11:26:20 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:26:59 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0="}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  Rendered session/new.haml within layouts/application (2.7ms)
+  Rendered shared/_header_nav.haml (3.3ms)
+Completed 200 OK in 35ms (Views: 26.0ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:27:04 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0=", "username"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'admin' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 97ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 11:27:04 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (0.7ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:27:04 +0800
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 11:27:59 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (3.0ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 11:27:59 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 11:27:59 +0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 11:27:59 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:27:59 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 11:27:59 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:27:59 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 11:27:59 +0800
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 11:27:59 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 11:27:59 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 11:27:59 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 11:27:59 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 11:27:59 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 11:27:59 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:28:11 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  Rendered session/new.haml within layouts/application (2.7ms)
+  Rendered shared/_header_nav.haml (0.6ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:28:30 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1
+  Rendered session/new.haml within layouts/application (1.8ms)
+  Rendered shared/_header_nav.haml (2.7ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:31:04 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  Rendered session/new.haml within layouts/session (2.6ms)
+Completed 200 OK in 30ms (Views: 21.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 11:31:04 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 11:31:04 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 11:31:04 +0800
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:31:04 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 11:31:04 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:31:04 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 11:31:04 +0800
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 11:31:04 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 11:31:04 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 11:31:04 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 11:31:04 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 11:31:04 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 11:31:04 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:31:48 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1
+  Rendered session/new.haml within layouts/session (4.2ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 11:31:48 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 11:31:48 +0800
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 11:31:48 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:31:48 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:31:48 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 11:31:48 +0800
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 11:31:48 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 11:31:48 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 11:31:48 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 11:31:48 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 11:31:48 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 11:31:48 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 11:31:48 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:32:27 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  Rendered session/new.haml within layouts/session (4.9ms)
+Compiled session.css  (2ms)  (pid 2648)
+Compiled application.css  (2ms)  (pid 2648)
+Completed 200 OK in 31ms (Views: 28.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 11:32:27 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 11:32:27 +0800
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 11:32:27 +0800
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:32:27 +0800
+Served asset /session.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 11:32:27 +0800
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:32:27 +0800
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 11:32:27 +0800
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 11:32:27 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 11:32:27 +0800
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 11:32:27 +0800
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 11:32:27 +0800
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 11:32:27 +0800
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 11:32:27 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:33:47 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1
+  Rendered session/new.haml within layouts/session (1.3ms)
+Compiled session.css  (3ms)  (pid 2648)
+Compiled application.css  (2ms)  (pid 2648)
+Completed 200 OK in 73ms (Views: 70.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 11:33:47 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:33:47 +0800
+Served asset /session.css - 200 OK (2ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:33:47 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 11:33:47 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 11:33:47 +0800
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 11:33:47 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 11:33:47 +0800
+Served asset /application.css - 200 OK (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 11:33:47 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 11:33:47 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 11:33:47 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 11:33:47 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 11:33:47 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 11:33:47 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:34:22 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  Rendered session/new.haml within layouts/session (4.4ms)
+Compiled session.css  (2ms)  (pid 2648)
+Compiled application.css  (2ms)  (pid 2648)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 11:34:22 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 11:34:22 +0800
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 11:34:22 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:34:23 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:34:23 +0800
+Served asset /session.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 11:34:23 +0800
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 11:34:23 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 11:34:23 +0800
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 11:34:23 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 11:34:23 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 11:34:23 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 11:34:23 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 11:34:23 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:36:19 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1
+  Rendered session/new.haml within layouts/session (3.5ms)
+Compiled session.css  (3ms)  (pid 2648)
+Compiled application.css  (2ms)  (pid 2648)
+Completed 200 OK in 33ms (Views: 31.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 11:36:19 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:36:19 +0800
+Served asset /session.css - 200 OK (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 11:36:19 +0800
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 11:36:19 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 11:36:19 +0800
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:36:19 +0800
+Served asset /shared.css - 200 OK (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 11:36:19 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 11:36:19 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 11:36:19 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 11:36:19 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 11:36:19 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 11:36:19 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 11:36:19 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:36:47 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  Rendered session/new.haml within layouts/session (3.7ms)
+Compiled session.css  (3ms)  (pid 2648)
+Compiled application.css  (2ms)  (pid 2648)
+Completed 200 OK in 69ms (Views: 65.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 11:36:47 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:36:47 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 11:36:47 +0800
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 11:36:47 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:36:47 +0800
+Served asset /session.css - 200 OK (3ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 11:36:47 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 11:36:47 +0800
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 11:36:47 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 11:36:47 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 11:36:47 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 11:36:47 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 11:36:47 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 11:36:47 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:37:48 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1
+  Rendered session/new.haml within layouts/session (1.5ms)
+Compiled session.css  (3ms)  (pid 2648)
+Compiled application.css  (2ms)  (pid 2648)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 11:37:48 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 11:37:48 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 11:37:48 +0800
+Served asset /application.css - 200 OK (15ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:37:48 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 11:37:48 +0800
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:37:48 +0800
+Served asset /session.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 11:37:48 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 11:37:48 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 11:37:48 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 11:37:48 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 11:37:48 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 11:37:48 +0800
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 11:37:48 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:38:13 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  Rendered session/new.haml within layouts/session (1.4ms)
+Compiled session.css  (4ms)  (pid 2648)
+Compiled application.css  (2ms)  (pid 2648)
+Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-08 11:38:13 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-08 11:38:13 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:38:13 +0800
+Served asset /session.css - 200 OK (1ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-08 11:38:13 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:38:13 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-08 11:38:13 +0800
+Served asset /application.css - 200 OK (11ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-08 11:38:13 +0800
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-08 11:38:13 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-08 11:38:13 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-08 11:38:13 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-08 11:38:13 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-08 11:38:13 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-08 11:38:13 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:38:20 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0=", "username"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'admin' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 98ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 11:38:20 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (2.7ms)
+Completed 200 OK in 12ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:38:20 +0800
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:38:24 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0="}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  Rendered session/new.haml within layouts/session (3.0ms)
+Completed 200 OK in 20ms (Views: 17.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:38:24 +0800
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:38:28 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0=", "username"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'admin' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 87ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 11:38:28 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.0ms)
+  Rendered shared/_header_nav.haml (0.7ms)
+Completed 200 OK in 9ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:38:28 +0800
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:39:59 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0="}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+  Rendered session/new.haml within layouts/session (1.6ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:39:59 +0800
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-09-08 11:40:03 +0800
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FmIkPkUHp8xCT3FX09ZnNE6G+7eyx+oae3EVXiPsVY0=", "username"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'admin' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 89ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 11:40:03 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (0.7ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:40:03 +0800
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-08 11:40:08 +0800
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  Rendered shared/_header_nav.haml (0.7ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-08 11:40:08 +0800
+Served asset /session.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-08 11:40:08 +0800
+Served asset /shared.css - 304 Not Modified (0ms)
