@@ -1,0 +1,3 @@
+class BlogPost < Post
+
+end

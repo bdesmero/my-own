@@ -1,0 +1,9 @@
+%h1= @post.title
+
+%em{:class => 'muted'}
+  %small
+    Posted on 
+    =@post.published_date.to_formatted_s(:long)
+
+.post-content
+  =@post.content

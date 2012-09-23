@@ -2,6 +2,10 @@
   =form_for @post do |f|
     .control-group
       .controls
+        =select_tag :post_type, options_for_select(Post::TYPES)
+  
+    .control-group
+      .controls
         =f.date_select :published_date, :class => 'form-date'
     
     .control-group
