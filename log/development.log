@@ -12503,3 +12503,764 @@ Processing by WordsController#index as HTML
   Rendered words/index.haml within layouts/application (0.9ms)
   Rendered shared/_header_nav.haml (1.5ms)
 Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2012-09-24 18:55:28 +0800
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.3ms)[0m  [1mSELECT `words`.* FROM `words` [0m
+  Rendered words/index.haml within layouts/application (0.9ms)
+  Rendered shared/_header_nav.haml (1.4ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/words/1" for 127.0.0.1 at 2012-09-24 18:55:31 +0800
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mWord Load (0.3ms)[0m  SELECT `words`.* FROM `words` WHERE `words`.`id` = 1 LIMIT 1
+  Rendered words/show.haml within layouts/application (2.2ms)
+  Rendered shared/_header_nav.haml (1.4ms)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/words/1" for 127.0.0.1 at 2012-09-24 18:55:42 +0800
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT `words`.* FROM `words` WHERE `words`.`id` = 1 LIMIT 1[0m
+  Rendered words/show.haml within layouts/application (1.1ms)
+  Rendered shared/_header_nav.haml (1.4ms)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/words/1/edit" for 127.0.0.1 at 2012-09-24 18:55:43 +0800
+Processing by WordsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mWord Load (0.3ms)[0m  SELECT `words`.* FROM `words` WHERE `words`.`id` = 1 LIMIT 1
+  Rendered words/_form.haml (2.7ms)
+  Rendered words/edit.haml within layouts/application (3.9ms)
+  Rendered shared/_header_nav.haml (1.5ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/words/1" for 127.0.0.1 at 2012-09-24 18:55:47 +0800
+Processing by WordsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XTWyqFvp0GqNLg9lA2EDM7YL7YL8Fa0b8tT80g00cck=", "word"=>{"term"=>"이름", "translation"=>"name", "example"=>"나는 이름이 비야입니다.", "example_translation"=>"My name is Bia."}, "commit"=>"Save", "id"=>"1"}
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT `words`.* FROM `words` WHERE `words`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `words` SET `translation` = 'name', `updated_at` = '2012-09-24 10:55:47' WHERE `words`.`id` = 1[0m
+  [1m[35m (141.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/words/1
+Completed 302 Found in 150ms (ActiveRecord: 142.4ms)
+
+
+Started GET "/words/1" for 127.0.0.1 at 2012-09-24 18:55:47 +0800
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mWord Load (0.7ms)[0m  [1mSELECT `words`.* FROM `words` WHERE `words`.`id` = 1 LIMIT 1[0m
+  Rendered words/show.haml within layouts/application (2.3ms)
+  Rendered shared/_header_nav.haml (1.6ms)
+Completed 200 OK in 56ms (Views: 53.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2012-09-24 18:55:49 +0800
+Processing by WordsController#index as HTML
+  [1m[35mWord Load (0.5ms)[0m  SELECT `words`.* FROM `words` 
+  Rendered words/index.haml within layouts/application (1.8ms)
+  Rendered shared/_header_nav.haml (1.4ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT `words`.* FROM `words` [0m
+  Rendered words/index.haml within layouts/application (0.9ms)
+  Rendered shared/_header_nav.haml (5.1ms)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /posts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:53 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/words/new" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Processing by WordsController#new as HTML
+  Rendered words/_form.haml (2.3ms)
+  Rendered words/new.haml within layouts/application (3.2ms)
+  Rendered shared/_header_nav.haml (1.4ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /application.css - 304 Not Modified (43ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /session.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /words.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 18:56:59 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Processing by WordsController#index as HTML
+  [1m[35mWord Load (0.3ms)[0m  SELECT `words`.* FROM `words` 
+  Rendered words/index.haml within layouts/application (0.9ms)
+  Rendered shared/_header_nav.haml (1.3ms)
+Completed 200 OK in 14ms (Views: 12.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /dashboard.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /shared.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /bootstrap.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 18:57:05 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/words/new" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Processing by WordsController#new as HTML
+  Rendered words/_form.haml (2.2ms)
+  Rendered words/new.haml within layouts/application (3.0ms)
+  Rendered shared/_header_nav.haml (1.4ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /application.css - 304 Not Modified (48ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /bootstrap.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 19:04:52 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started POST "/words" for 127.0.0.1 at 2012-09-24 19:05:20 +0800
+Processing by WordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XTWyqFvp0GqNLg9lA2EDM7YL7YL8Fa0b8tT80g00cck=", "word"=>{"term"=>"책상", "translation"=>"desk", "example"=>"", "example_translation"=>""}, "commit"=>"Save"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `words` (`created_at`, `example`, `example_translation`, `term`, `translation`, `updated_at`) VALUES ('2012-09-24 11:05:20', '', '', '책상', 'desk', '2012-09-24 11:05:20')
+  [1m[36m (147.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/words/2
+Completed 302 Found in 153ms (ActiveRecord: 147.8ms)
+
+
+Started GET "/words/2" for 127.0.0.1 at 2012-09-24 19:05:20 +0800
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mWord Load (0.6ms)[0m  SELECT `words`.* FROM `words` WHERE `words`.`id` = 2 LIMIT 1
+  Rendered words/show.haml within layouts/application (2.1ms)
+  Rendered shared/_header_nav.haml (1.3ms)
+Completed 200 OK in 22ms (Views: 19.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:20 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:21 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT `words`.* FROM `words` [0m
+  Rendered words/index.haml within layouts/application (1.2ms)
+  Rendered shared/_header_nav.haml (1.4ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /shared.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /bootstrap.min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 19:05:27 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Processing by WordsController#index as HTML
+  [1m[35mWord Load (0.2ms)[0m  SELECT `words`.* FROM `words` 
+  Rendered words/index.haml within layouts/application (1.2ms)
+  Rendered shared/_header_nav.haml (5.4ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 19:06:07 +0800
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT `words`.* FROM `words` [0m
+  Rendered words/index.haml within layouts/application (1.8ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (22.9ms)
+Completed 200 OK in 53ms (Views: 33.6ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /bootstrap.min.css - 200 OK (5ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /words.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /posts.js - 200 OK (1ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /words.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:41 +0800
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT `words`.* FROM `words` [0m
+  Rendered words/index.haml within layouts/application (1.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (8.7ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /bootstrap.min.css - 200 OK (10ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /words.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /words.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-24 19:07:53 +0800
+Served asset /application.js - 200 OK (2ms)
