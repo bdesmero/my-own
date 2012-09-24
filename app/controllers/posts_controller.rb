@@ -16,7 +16,7 @@ class PostsController < ApplicationController
     @post = params[:post_type].constantize.new params[:post]
     
     if @post.save
-      redirect_to root_path
+      redirect_to post_path(@post)
     else
       render 'new'
     end
