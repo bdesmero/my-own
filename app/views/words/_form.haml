@@ -1,0 +1,45 @@
+=form_for word, :html => {:class => 'form-horizontal'} do |f|
+  
+  .control-group
+    .control-label
+      %label 한국어 단어
+      %small.muted
+        %em Korean Word
+
+    .controls
+      =f.text_field :term, :class => 'input-text'
+
+
+  .control-group
+    .control-label
+      %label 번역
+      %small.muted
+        %em Meaning
+          
+    .controls
+      =f.text_field :translation, :class => 'input-text'
+
+
+  .control-group
+    .control-label
+      %label 보기
+      %small.muted
+        %em Example
+    
+    .controls
+      =f.text_field :example, :class => 'input-text'
+
+
+  .control-group
+    .control-label
+      %label 보기가 번역
+      %small.muted
+        %em Example Translation
+    
+    .controls
+      =f.text_field :example_translation, :class => 'input-text'
+
+
+  .control-group
+    .controls
+      =f.submit 'Save', :class => 'btn btn-primary'

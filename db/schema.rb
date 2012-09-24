@@ -33,9 +33,10 @@ ActiveRecord::Schema.define(:version => 20120924100456) do
   create_table "words", :force => true do |t|
     t.string   "term"
     t.string   "translation"
-    t.string   "sentence"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.string   "example"
+    t.string   "example_translation"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
   end
 
 end

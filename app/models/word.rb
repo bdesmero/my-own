@@ -1,3 +1,3 @@
 class Word < ActiveRecord::Base
-  attr_accessible :sentence, :term, :translation
+  attr_accessible :example_translation, :example, :term, :translation
 end
