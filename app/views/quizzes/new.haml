@@ -6,3 +6,10 @@
   %small.muted
     %em=@word.example
 
+=form_tag '/quiz', :html => {:class => 'form-horizontal'} do |f|
+  =hidden_field_tag :word_id, @word.id
+  .control-group
+    .controls
+      =text_field_tag :translation, '', :class => 'input-text', :placeholder => '번역'
+  =submit_tag 'OK', :class => 'btn btn-primary'
+
