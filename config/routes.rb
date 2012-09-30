@@ -1,13 +1,5 @@
 MyOwn::Application.routes.draw do
 
-  get "words/index"
-
-  get "words/show"
-
-  get "words/new"
-
-  get "words/edit"
-
   root :to => 'dashboard#show'
   
   resource :dashboard, :controller => 'dashboard', :only => :show
@@ -16,5 +8,6 @@ MyOwn::Application.routes.draw do
   
   resources :posts
   resources :words
+  resource :quiz
   
 end
