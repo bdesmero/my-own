@@ -1,5 +1,10 @@
 class QuizzesController < ApplicationController
   
+  def show
+    @score = Score.first
+  end
+
+
   def new
     @word = Word.random
     #@quiz = Word.new
@@ -19,7 +24,4 @@ class QuizzesController < ApplicationController
     end
   end
 
-
-  def show
-  end
 end
