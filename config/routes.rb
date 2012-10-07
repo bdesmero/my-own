@@ -8,6 +8,6 @@ MyOwn::Application.routes.draw do
   
   resources :posts
   resources :words
-  resource :quiz
+  resources :quizzes
   
 end

@@ -13,3 +13,6 @@ puts 'Creating User'
     :password_confirmation => 'password'
   )
 
+
+puts 'Creating Score'
+  Score.create()

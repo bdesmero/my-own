@@ -18614,3 +18614,3146 @@ RuntimeError ({"action"=>"new", "controller"=>"quizzes"}):
   Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
   Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
   Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-04 10:53:30 -0400
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:3000/session/new
+Filter chain halted as :login_required rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2012-10-04 10:53:30 -0400
+Processing by SessionController#new as HTML
+  Rendered session/new.haml within layouts/session (7.2ms)
+Completed 200 OK in 495ms (Views: 493.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /bootstrap.min.css - 200 OK (66ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /dashboard.css - 200 OK (3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /posts.css - 200 OK (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /application.css - 200 OK (21ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /quizzes.css - 200 OK (6ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /session.css - 200 OK (2ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /shared.css - 200 OK (2ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /user.css - 200 OK (2ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /words.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /jquery.js - 200 OK (11ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /bootstrap.min.js - 200 OK (2ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /dashboard.js - 200 OK (5ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /posts.js - 200 OK (2ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /quizzes.js - 200 OK (2ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /session.js - 200 OK (2ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /user.js - 200 OK (2ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /words.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-04 10:53:31 -0400
+Served asset /application.js - 200 OK (22ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-10-04 10:53:40 -0400
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IVbGxEfxDZR+d91JkXwZvNVyW5fknp4VH3UeUFYUJsA=", "username"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (64.6ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'admin' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 606ms (ActiveRecord: 315.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-04 10:53:41 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (1.2ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (192.6ms)
+Completed 200 OK in 377ms (Views: 375.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-04 10:53:44 -0400
+Processing by QuizzesController#new as HTML
+  [1m[36mWord Load (35.4ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+Completed 500 Internal Server Error in 161ms
+
+RuntimeError ({"action"=>"new", "controller"=>"quizzes"}):
+  app/controllers/quizzes_controller.rb:6:in `new'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.2ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2012-10-04 11:09:50 -0400
+Processing by WordsController#index as HTML
+  [1m[35mWord Load (20.7ms)[0m  SELECT `words`.* FROM `words` 
+  Rendered words/index.haml within layouts/application (11.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (4.3ms)
+Completed 200 OK in 78ms (Views: 54.1ms | ActiveRecord: 20.9ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-07 10:02:59 -0400
+Processing by DashboardController#show as HTML
+Redirected to http://localhost:3000/session/new
+Filter chain halted as :login_required rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/session/new" for 127.0.0.1 at 2012-10-07 10:02:59 -0400
+Processing by SessionController#new as HTML
+  Rendered session/new.haml within layouts/session (6.5ms)
+Completed 200 OK in 605ms (Views: 604.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:00 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (68ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:00 -0400
+Served asset /dashboard.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:00 -0400
+Served asset /quizzes.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:00 -0400
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:00 -0400
+Served asset /posts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:00 -0400
+Served asset /session.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:00 -0400
+Served asset /shared.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:00 -0400
+Served asset /user.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:00 -0400
+Served asset /words.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:00 -0400
+Served asset /dashboard.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:00 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:00 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:00 -0400
+Served asset /jquery.js - 304 Not Modified (30ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:01 -0400
+Served asset /posts.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:01 -0400
+Served asset /quizzes.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:01 -0400
+Served asset /session.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:01 -0400
+Served asset /user.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:01 -0400
+Served asset /words.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:01 -0400
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started POST "/session" for 127.0.0.1 at 2012-10-07 10:03:07 -0400
+Processing by SessionController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "username"=>"admin", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (43.7ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'admin' LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 1332ms (ActiveRecord: 932.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (1.1ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (166.4ms)
+Completed 200 OK in 331ms (Views: 329.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /dashboard.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /shared.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /dashboard.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:08 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:03:09 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 10:03:25 -0400
+Processing by QuizzesController#new as HTML
+  [1m[36mWord Load (2.6ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+Completed 500 Internal Server Error in 89ms
+
+RuntimeError ({"action"=>"new", "controller"=>"quizzes"}):
+  app/controllers/quizzes_controller.rb:6:in `new'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-07 10:08:45 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (356.1ms)
+Completed 200 OK in 394ms (Views: 62.3ms | ActiveRecord: 329.1ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Processing by QuizzesController#new as HTML
+  [1m[36mWord Load (22.5ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+  Rendered quizzes/new.haml within layouts/application (80.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (4.6ms)
+Completed 200 OK in 245ms (Views: 123.2ms | ActiveRecord: 50.5ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /quizzes.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /session.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /dashboard.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:08:50 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/quiz" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "word_id"=>"2", "translation"=>"weather", "commit"=>"OK"}
+  [1m[36mWord Load (0.7ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+  [1m[35mWord Load (19.3ms)[0m  SELECT `words`.* FROM `words` WHERE `words`.`id` = 2 LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 25ms (ActiveRecord: 20.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (4.6ms)
+Completed 200 OK in 27ms (Views: 26.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:07 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:08 -0400
+Served asset /quizzes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:08 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:08 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:08 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:08 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 10:11:10 -0400
+Processing by QuizzesController#new as HTML
+  [1m[35mWord Load (0.7ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  Rendered quizzes/new.haml within layouts/application (2.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (4.5ms)
+Completed 200 OK in 31ms (Views: 28.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:10 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:10 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:10 -0400
+Served asset /dashboard.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:10 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:10 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:10 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:10 -0400
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:10 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:10 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:11 -0400
+Served asset /jquery.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:11 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:11 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:11 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:11 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:11 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:11 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:11 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:11 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/quiz" for 127.0.0.1 at 2012-10-07 10:11:14 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "word_id"=>"2", "translation"=>"water", "commit"=>"OK"}
+  [1m[35mWord Load (0.7ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT `words`.* FROM `words` WHERE `words`.`id` = 2 LIMIT 1[0m
+Completed 500 Internal Server Error in 6ms
+
+ActionView::MissingTemplate (Missing template quizzes/create, application/create with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :haml]}. Searched in:
+  * "/home/administrator/Documents/my-own/app/views"
+):
+  actionpack (3.2.8) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.8) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/administrator/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__730246262__process_action__863183429__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  sass (3.2.1) lib/sass/plugin/rack.rb:54:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__190851560__call__221842319__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/administrator/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/administrator/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/administrator/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.5ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 10:11:28 -0400
+Processing by QuizzesController#new as HTML
+  [1m[35mWord Load (14.4ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  Rendered quizzes/new.haml within layouts/application (2.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (24.4ms)
+Completed 200 OK in 88ms (Views: 48.4ms | ActiveRecord: 18.1ms)
+
+
+Started POST "/quiz" for 127.0.0.1 at 2012-10-07 10:11:31 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "word_id"=>"1", "translation"=>"names", "commit"=>"OK"}
+  [1m[35mWord Load (0.7ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT `words`.* FROM `words` WHERE `words`.`id` = 1 LIMIT 1[0m
+Completed 500 Internal Server Error in 7ms
+
+ActionView::MissingTemplate (Missing template quizzes/create, application/create with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :haml]}. Searched in:
+  * "/home/administrator/Documents/my-own/app/views"
+):
+  actionpack (3.2.8) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.8) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.8) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.8) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.8) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.8) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.8) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /home/administrator/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.8) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:414:in `_run__730246262__process_action__863183429__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.8) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.8) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.8) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.8) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  sass (3.2.1) lib/sass/plugin/rack.rb:54:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__190851560__call__221842319__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/administrator/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/administrator/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/administrator/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 10:11:51 -0400
+Processing by QuizzesController#new as HTML
+  [1m[35mWord Load (0.5ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  Rendered quizzes/new.haml within layouts/application (2.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (25.7ms)
+Completed 200 OK in 127ms (Views: 49.5ms | ActiveRecord: 4.4ms)
+
+
+Started POST "/quiz" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "word_id"=>"2", "translation"=>"water", "commit"=>"OK"}
+  [1m[35mWord Load (0.6ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT `words`.* FROM `words` WHERE `words`.`id` = 2 LIMIT 1[0m
+Redirected to http://localhost:3000/quiz/new
+Completed 302 Found in 5ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Processing by QuizzesController#new as HTML
+  [1m[35mWord Load (32.5ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  Rendered quizzes/new.haml within layouts/application (4.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (4.6ms)
+Completed 200 OK in 69ms (Views: 34.6ms | ActiveRecord: 32.7ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /user.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:54 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/quiz" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "word_id"=>"2", "translation"=>"water", "commit"=>"OK"}
+  [1m[35mWord Load (0.6ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT `words`.* FROM `words` WHERE `words`.`id` = 2 LIMIT 1[0m
+Redirected to http://localhost:3000/quiz/new
+Completed 302 Found in 5ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Processing by QuizzesController#new as HTML
+  [1m[35mWord Load (0.6ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  Rendered quizzes/new.haml within layouts/application (2.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (4.7ms)
+Completed 200 OK in 85ms (Views: 83.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /shared.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /words.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:11:59 -0400
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started POST "/quiz" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "word_id"=>"1", "translation"=>"names", "commit"=>"OK"}
+  [1m[35mWord Load (0.8ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT `words`.* FROM `words` WHERE `words`.`id` = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/quiz/new
+Completed 302 Found in 6ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Processing by QuizzesController#new as HTML
+  [1m[35mWord Load (0.7ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  Rendered quizzes/new.haml within layouts/application (3.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (5.1ms)
+Completed 200 OK in 34ms (Views: 31.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /shared.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /session.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /jquery.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /posts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:03 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started POST "/quiz" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "word_id"=>"1", "translation"=>"name", "commit"=>"OK"}
+  [1m[35mWord Load (0.8ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT `words`.* FROM `words` WHERE `words`.`id` = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (4.7ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /words.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:12:06 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (121.0ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120907181745)
+Migrating to CreatePosts (20120908141724)
+Migrating to CreateWords (20120924100456)
+Migrating to CreateScores (20121007141255)
+  [1m[35m (360.7ms)[0m  CREATE TABLE `scores` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `score` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (77.4ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20121007141255')[0m
+  [1m[35m (0.5ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+  [1m[36m (649.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (1217.1ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (174.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120907181745)
+  [1m[35m (508.5ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `username` varchar(255), `password_hash` varchar(255), `password_salt` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (98.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120907181745')[0m
+Migrating to CreatePosts (20120908141724)
+  [1m[35m (339.8ms)[0m  CREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `content` text, `published_date` date, `type` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (120.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120908141724')[0m
+Migrating to CreateWords (20120924100456)
+  [1m[35m (295.3ms)[0m  CREATE TABLE `words` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `term` varchar(255), `translation` varchar(255), `example` varchar(255), `example_translation` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (130.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120924100456')[0m
+Migrating to CreateScores (20121007141255)
+  [1m[35m (487.3ms)[0m  CREATE TABLE `scores` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `score` int(11) DEFAULT 0, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (142.9ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20121007141255')[0m
+  [1m[35m (0.6ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+  [1m[36m (49.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (11.2ms)[0m  BEGIN
+  [1m[36mSQL (16.1ms)[0m  [1mINSERT INTO `users` (`created_at`, `password_hash`, `password_salt`, `updated_at`, `username`) VALUES ('2012-10-07 14:15:28', '$2a$10$mrungMPzpAzUBYMXk3C7o.yyH8DPBd6XhKpW3km.TbDcOze0C.g9m', '$2a$10$mrungMPzpAzUBYMXk3C7o.', '2012-10-07 14:15:28', 'admin')[0m
+  [1m[35m (106.7ms)[0m  COMMIT
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (289.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (382.2ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (20.6ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120907181745)
+  [1m[35m (222.2ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `username` varchar(255), `password_hash` varchar(255), `password_salt` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (131.2ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120907181745')[0m
+Migrating to CreatePosts (20120908141724)
+  [1m[35m (393.5ms)[0m  CREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `content` text, `published_date` date, `type` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (142.4ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120908141724')[0m
+Migrating to CreateWords (20120924100456)
+  [1m[35m (453.7ms)[0m  CREATE TABLE `words` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `term` varchar(255), `translation` varchar(255), `example` varchar(255), `example_translation` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (94.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120924100456')[0m
+Migrating to CreateScores (20121007141255)
+  [1m[35m (240.1ms)[0m  CREATE TABLE `scores` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `score` int(11) DEFAULT 0, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (76.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20121007141255')[0m
+  [1m[35m (0.5ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+  [1m[36m (2.6ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO `users` (`created_at`, `password_hash`, `password_salt`, `updated_at`, `username`) VALUES ('2012-10-07 14:18:32', '$2a$10$L1gWNCTYAngz/IVuLKmTjuEHljgr/QwTxmAeT1jBb3nxAskgLjIYm', '$2a$10$L1gWNCTYAngz/IVuLKmTju', '2012-10-07 14:18:32', 'admin')[0m
+  [1m[35m (83.4ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (10.1ms)[0m  INSERT INTO `scores` (`created_at`, `score`, `updated_at`) VALUES ('2012-10-07 14:18:32', 0, '2012-10-07 14:18:32')
+  [1m[36m (128.2ms)[0m  [1mCOMMIT[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (337.2ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (483.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (40.6ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120907181745)
+  [1m[35m (252.6ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `username` varchar(255), `password_hash` varchar(255), `password_salt` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (87.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120907181745')[0m
+Migrating to CreatePosts (20120908141724)
+  [1m[35m (229.2ms)[0m  CREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `content` text, `published_date` date, `type` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (86.9ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120908141724')[0m
+Migrating to CreateWords (20120924100456)
+  [1m[35m (227.7ms)[0m  CREATE TABLE `words` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `term` varchar(255), `translation` varchar(255), `example` varchar(255), `example_translation` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (87.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120924100456')[0m
+Migrating to CreateScores (20121007141255)
+  [1m[35m (210.3ms)[0m  CREATE TABLE `scores` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `right` int(11) DEFAULT 0, `wrong` int(11) DEFAULT 0, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (87.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20121007141255')[0m
+  [1m[35m (0.3ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+  [1m[36m (2.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (22.4ms)[0m  [1mINSERT INTO `users` (`created_at`, `password_hash`, `password_salt`, `updated_at`, `username`) VALUES ('2012-10-07 14:22:40', '$2a$10$osbRuCJ9bFbkacsQFEkTi.dGZvmjLi48GHc9Ta2abAoqn2CkNZ9kS', '$2a$10$osbRuCJ9bFbkacsQFEkTi.', '2012-10-07 14:22:40', 'admin')[0m
+  [1m[35m (107.2ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (8.3ms)[0m  INSERT INTO `scores` (`created_at`, `right`, `updated_at`, `wrong`) VALUES ('2012-10-07 14:22:40', 0, '2012-10-07 14:22:40', 0)
+  [1m[36m (99.6ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (1.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (81.7ms)
+Completed 200 OK in 292ms (Views: 288.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /bootstrap.min.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /quizzes.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /shared.css - 200 OK (3ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /words.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /bootstrap.min.js - 200 OK (3ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /quizzes.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:23:05 -0400
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:23:06 -0400
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:23:06 -0400
+Served asset /words.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:23:06 -0400
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-07 10:29:14 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (319.0ms)
+Completed 200 OK in 360ms (Views: 118.7ms | ActiveRecord: 240.5ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /bootstrap.min.css - 200 OK (4ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /quizzes.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /user.css - 200 OK (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /words.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /dashboard.js - 200 OK (3ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /quizzes.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /words.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:29:15 -0400
+Served asset /application.js - 200 OK (5ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 10:29:21 -0400
+Processing by QuizzesController#new as HTML
+  [1m[36mWord Load (92.2ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+  Rendered quizzes/new.haml within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 149ms
+
+ActionView::Template::Error (undefined method `term' for nil:NilClass):
+    1: %h1=@word.term
+    2: 
+    3: =link_to '보기', '#', :class => 'btn btn-mini btn-warning', :id => 'example-link'
+    4: 
+  app/views/quizzes/new.haml:1:in `_app_views_quizzes_new_haml___416968383_83622230'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (24.7ms)
+Connecting to database specified by database.yml
+  [1m[36m (238.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (361.2ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (42.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120907181745)
+  [1m[35m (208.6ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `username` varchar(255), `password_hash` varchar(255), `password_salt` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (330.7ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120907181745')[0m
+Migrating to CreatePosts (20120908141724)
+  [1m[35m (458.5ms)[0m  CREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `content` text, `published_date` date, `type` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (131.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120908141724')[0m
+Migrating to CreateWords (20120924100456)
+  [1m[35m (175.7ms)[0m  CREATE TABLE `words` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `term` varchar(255), `translation` varchar(255), `example` varchar(255), `example_translation` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (76.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120924100456')[0m
+Migrating to CreateScores (20121007141255)
+  [1m[35m (280.7ms)[0m  CREATE TABLE `scores` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `right` int(11) DEFAULT 0, `wrong` int(11) DEFAULT 0, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (53.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20121007141255')[0m
+  [1m[35m (0.5ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+  [1m[36m (2.6ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Connecting to database specified by database.yml
+  [1m[36m (306.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (639.2ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (4.7ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120907181745)
+  [1m[35m (949.0ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `username` varchar(255), `password_hash` varchar(255), `password_salt` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (333.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120907181745')[0m
+Migrating to CreatePosts (20120908141724)
+  [1m[35m (666.3ms)[0m  CREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `content` text, `published_date` date, `type` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (242.4ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120908141724')[0m
+Migrating to CreateWords (20120924100456)
+  [1m[35m (394.4ms)[0m  CREATE TABLE `words` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `term` varchar(255), `translation` varchar(255), `example` varchar(255), `example_translation` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (142.7ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120924100456')[0m
+Migrating to CreateScores (20121007141255)
+  [1m[35m (465.5ms)[0m  CREATE TABLE `scores` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `right` int(11) DEFAULT 0, `wrong` int(11) DEFAULT 0, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (120.8ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20121007141255')[0m
+  [1m[35m (0.3ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+  [1m[36m (2.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Connecting to database specified by database.yml
+  [1m[36m (207.2ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (378.4ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (4.6ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120907181745)
+  [1m[35m (248.8ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `username` varchar(255), `password_hash` varchar(255), `password_salt` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (87.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120907181745')[0m
+Migrating to CreatePosts (20120908141724)
+  [1m[35m (590.6ms)[0m  CREATE TABLE `posts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `content` text, `published_date` date, `type` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (187.7ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120908141724')[0m
+Migrating to CreateWords (20120924100456)
+  [1m[35m (416.9ms)[0m  CREATE TABLE `words` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `term` varchar(255), `translation` varchar(255), `example` varchar(255), `example_translation` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (109.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120924100456')[0m
+Migrating to CreateScores (20121007141255)
+  [1m[35m (202.0ms)[0m  CREATE TABLE `scores` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `right` int(11) DEFAULT 0, `wrong` int(11) DEFAULT 0, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (65.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20121007141255')[0m
+  [1m[35m (0.5ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+  [1m[36m (2.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (73.7ms)[0m  BEGIN
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO `users` (`created_at`, `password_hash`, `password_salt`, `updated_at`, `username`) VALUES ('2012-10-07 14:36:07', '$2a$10$iJK9FZ4sAER9OFp4qDR3COGCxjRqCnriGMELWGpKjOtiGIt3urwTK', '$2a$10$iJK9FZ4sAER9OFp4qDR3CO', '2012-10-07 14:36:07', 'admin')[0m
+  [1m[35m (89.0ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO `scores` (`created_at`, `right`, `updated_at`, `wrong`) VALUES ('2012-10-07 14:36:08', 0, '2012-10-07 14:36:08', 0)
+  [1m[36m (99.4ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/words/new" for 127.0.0.1 at 2012-10-07 10:36:24 -0400
+Processing by WordsController#new as HTML
+  Rendered words/_form.haml (15.4ms)
+  Rendered words/new.haml within layouts/application (20.4ms)
+  [1m[35mUser Load (1.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (26.3ms)
+Completed 200 OK in 145ms (Views: 75.7ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2012-10-07 10:36:27 -0400
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.7ms)[0m  [1mSELECT `words`.* FROM `words` [0m
+  Rendered words/index.haml within layouts/application (8.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (4.5ms)
+Completed 200 OK in 56ms (Views: 52.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/words/new" for 127.0.0.1 at 2012-10-07 10:36:30 -0400
+Processing by WordsController#new as HTML
+  Rendered words/_form.haml (3.8ms)
+  Rendered words/new.haml within layouts/application (5.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (4.5ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/words/new" for 127.0.0.1 at 2012-10-07 10:36:36 -0400
+Processing by WordsController#new as HTML
+  Rendered words/_form.haml (4.2ms)
+  Rendered words/new.haml within layouts/application (6.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (4.7ms)
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:36:36 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:36:36 -0400
+Served asset /session.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:36:36 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:36:36 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:36:36 -0400
+Served asset /application.css - 304 Not Modified (59ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:36:37 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:36:37 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:36:37 -0400
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:36:37 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:36:37 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:36:37 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:36:37 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:36:37 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:36:37 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:36:37 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:36:37 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:36:37 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:36:37 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:36:37 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started POST "/words" for 127.0.0.1 at 2012-10-07 10:37:10 -0400
+Processing by WordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "word"=>{"term"=>"이름", "translation"=>"name", "example"=>"제 이름은 비야입니다.", "example_translation"=>"My name is Bia."}, "commit"=>"Save"}
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `words` (`created_at`, `example`, `example_translation`, `term`, `translation`, `updated_at`) VALUES ('2012-10-07 14:37:10', '제 이름은 비야입니다.', 'My name is Bia.', '이름', 'name', '2012-10-07 14:37:10')
+  [1m[36m (116.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/words/1
+Completed 302 Found in 172ms (ActiveRecord: 117.5ms)
+
+
+Started GET "/words/1" for 127.0.0.1 at 2012-10-07 10:37:10 -0400
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mWord Load (19.6ms)[0m  SELECT `words`.* FROM `words` WHERE `words`.`id` = 1 LIMIT 1
+  Rendered words/show.haml within layouts/application (89.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (4.5ms)
+Completed 200 OK in 164ms (Views: 141.2ms | ActiveRecord: 19.9ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /shared.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /words.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /session.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:11 -0400
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/words/new" for 127.0.0.1 at 2012-10-07 10:37:13 -0400
+Processing by WordsController#new as HTML
+  Rendered words/_form.haml (4.4ms)
+  Rendered words/new.haml within layouts/application (6.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (5.3ms)
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:13 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:13 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:13 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:13 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:13 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:13 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:14 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:14 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:14 -0400
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:14 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:14 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:14 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:14 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:14 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:14 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:14 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:14 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:14 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:14 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started POST "/words" for 127.0.0.1 at 2012-10-07 10:37:20 -0400
+Processing by WordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "word"=>{"term"=>"날", "translation"=>"", "example"=>"", "example_translation"=>""}, "commit"=>"Save"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (97.9ms)[0m  INSERT INTO `words` (`created_at`, `example`, `example_translation`, `term`, `translation`, `updated_at`) VALUES ('2012-10-07 14:37:20', '', '', '날', '', '2012-10-07 14:37:20')
+  [1m[36m (130.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/words/2
+Completed 302 Found in 290ms (ActiveRecord: 228.9ms)
+
+
+Started GET "/words/2" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mWord Load (0.5ms)[0m  SELECT `words`.* FROM `words` WHERE `words`.`id` = 2 LIMIT 1
+  Rendered words/show.haml within layouts/application (1.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (4.3ms)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /quizzes.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:21 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/words/2/edit" for 127.0.0.1 at 2012-10-07 10:37:22 -0400
+Processing by WordsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mWord Load (0.3ms)[0m  SELECT `words`.* FROM `words` WHERE `words`.`id` = 2 LIMIT 1
+  Rendered words/_form.haml (8.3ms)
+  Rendered words/edit.haml within layouts/application (13.5ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (4.9ms)
+Completed 200 OK in 133ms (Views: 129.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /posts.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:23 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started PUT "/words/2" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Processing by WordsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "word"=>{"term"=>"날씨", "translation"=>"weather", "example"=>"오늘 날씨가 좋은 것입니다.", "example_translation"=>"The weather today is nice."}, "commit"=>"Save", "id"=>"2"}
+  [1m[35mWord Load (0.3ms)[0m  SELECT `words`.* FROM `words` WHERE `words`.`id` = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (188.7ms)[0m  UPDATE `words` SET `term` = '날씨', `translation` = 'weather', `example` = '오늘 날씨가 좋은 것입니다.', `example_translation` = 'The weather today is nice.', `updated_at` = '2012-10-07 14:37:40' WHERE `words`.`id` = 2
+  [1m[36m (82.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/words/2
+Completed 302 Found in 280ms (ActiveRecord: 271.8ms)
+
+
+Started GET "/words/2" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mWord Load (0.5ms)[0m  SELECT `words`.* FROM `words` WHERE `words`.`id` = 2 LIMIT 1
+  Rendered words/show.haml within layouts/application (1.9ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (4.2ms)
+Completed 200 OK in 30ms (Views: 27.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Served asset /shared.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:40 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:41 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:41 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:41 -0400
+Served asset /user.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:41 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Processing by QuizzesController#new as HTML
+  [1m[35mWord Load (77.9ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  Rendered quizzes/new.haml within layouts/application (5.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (4.6ms)
+Completed 200 OK in 146ms (Views: 63.8ms | ActiveRecord: 78.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /words.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /user.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:37:43 -0400
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started POST "/quiz" for 127.0.0.1 at 2012-10-07 10:37:47 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "word_id"=>"1", "translation"=>"name", "commit"=>"OK"}
+  [1m[35mWord Load (0.8ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT `words`.* FROM `words` WHERE `words`.`id` = 1 LIMIT 1[0m
+  [1m[35mScore Load (0.4ms)[0m  SELECT `scores`.* FROM `scores` LIMIT 1
+Completed 500 Internal Server Error in 32ms
+
+NameError (undefined local variable or method `score' for #<Class:0xb20db6e8>):
+  app/models/score.rb:6:in `update_right'
+  app/models/word.rb:8:in `check_quiz'
+  app/controllers/quizzes_controller.rb:13:in `create'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.4ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 10:38:34 -0400
+Processing by QuizzesController#new as HTML
+  [1m[36mWord Load (0.8ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+  Rendered quizzes/new.haml within layouts/application (2.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (24.8ms)
+Completed 200 OK in 130ms (Views: 49.8ms | ActiveRecord: 53.9ms)
+
+
+Started POST "/quiz" for 127.0.0.1 at 2012-10-07 10:38:41 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "word_id"=>"2", "translation"=>"weather", "commit"=>"OK"}
+  [1m[36mWord Load (0.7ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT `words`.* FROM `words` WHERE `words`.`id` = 2 LIMIT 1
+  [1m[36mScore Load (0.1ms)[0m  [1mSELECT `scores`.* FROM `scores` LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `scores`.* FROM `scores` LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `scores`.* FROM `scores` LIMIT 1[0m
+Completed 500 Internal Server Error in 24ms
+
+NoMethodError (undefined method `rails' for #<Class:0xb25b6334>):
+  app/models/word.rb:9:in `check_quiz'
+  app/controllers/quizzes_controller.rb:13:in `create'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.5ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 10:39:18 -0400
+Processing by QuizzesController#new as HTML
+  [1m[35mWord Load (0.5ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  Rendered quizzes/new.haml within layouts/application (2.5ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (77.4ms)
+Completed 200 OK in 124ms (Views: 100.4ms | ActiveRecord: 4.5ms)
+
+
+Started POST "/quiz" for 127.0.0.1 at 2012-10-07 10:39:21 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "word_id"=>"2", "translation"=>"weather", "commit"=>"OK"}
+  [1m[35mWord Load (0.6ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  [1m[36mWord Load (0.1ms)[0m  [1mSELECT `words`.* FROM `words` WHERE `words`.`id` = 2 LIMIT 1[0m
+  [1m[35mScore Load (0.1ms)[0m  SELECT `scores`.* FROM `scores` LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `scores`.* FROM `scores` LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `scores`.* FROM `scores` LIMIT 1
+Completed 500 Internal Server Error in 22ms
+
+RuntimeError (#<Score id: 1, right: 0, wrong: 0, created_at: "2012-10-07 14:36:08", updated_at: "2012-10-07 14:36:08">):
+  app/models/word.rb:9:in `check_quiz'
+  app/controllers/quizzes_controller.rb:13:in `create'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 10:40:29 -0400
+Processing by QuizzesController#new as HTML
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+  Rendered quizzes/new.haml within layouts/application (2.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (25.0ms)
+Completed 200 OK in 74ms (Views: 48.1ms | ActiveRecord: 4.7ms)
+
+
+Started POST "/quiz" for 127.0.0.1 at 2012-10-07 10:40:39 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "word_id"=>"2", "translation"=>"weather", "commit"=>"OK"}
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT `words`.* FROM `words` WHERE `words`.`id` = 2 LIMIT 1
+  [1m[36mScore Load (0.2ms)[0m  [1mSELECT `scores`.* FROM `scores` LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `scores`.* FROM `scores` LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  UPDATE `scores` SET `right` = 1, `updated_at` = '2012-10-07 14:40:39' WHERE `scores`.`id` = 1
+  [1m[36m (141.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mScore Load (0.5ms)[0m  SELECT `scores`.* FROM `scores` LIMIT 1
+Completed 500 Internal Server Error in 172ms
+
+RuntimeError (#<Score id: 1, right: 1, wrong: 0, created_at: "2012-10-07 14:36:08", updated_at: "2012-10-07 14:40:39">):
+  app/models/word.rb:9:in `check_quiz'
+  app/controllers/quizzes_controller.rb:13:in `create'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (70.3ms)
+
+
+Started POST "/quiz" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "word_id"=>"2", "translation"=>"weather", "commit"=>"OK"}
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+  [1m[35mWord Load (0.2ms)[0m  SELECT `words`.* FROM `words` WHERE `words`.`id` = 2 LIMIT 1
+  [1m[36mScore Load (0.2ms)[0m  [1mSELECT `scores`.* FROM `scores` LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `scores`.* FROM `scores` LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  UPDATE `scores` SET `right` = 2, `updated_at` = '2012-10-07 14:41:48' WHERE `scores`.`id` = 1
+  [1m[36m (145.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 194ms (ActiveRecord: 150.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (25.2ms)
+Completed 200 OK in 49ms (Views: 46.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /bootstrap.min.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /session.css - 200 OK (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /quizzes.css - 200 OK (3ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /posts.css - 200 OK (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /shared.css - 200 OK (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /user.css - 200 OK (7ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /words.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /jquery.js - 200 OK (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /dashboard.js - 200 OK (53ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /bootstrap.min.js - 200 OK (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /posts.js - 200 OK (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /quizzes.js - 200 OK (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /session.js - 200 OK (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /user.js - 200 OK (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /words.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 10:41:48 -0400
+Served asset /application.js - 200 OK (3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2012-10-07 10:54:24 -0400
+
+AbstractController::ActionNotFound (The action 'index' could not be found for PostsController):
+  actionpack (3.2.8) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.8) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.8) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.8) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.8) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  sass (3.2.1) lib/sass/plugin/rack.rb:54:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/cookies.rb:339:in `call'
+  activerecord (3.2.8) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `_run__190851560__call__221842319__callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.8) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/administrator/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/administrator/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/administrator/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (12.0ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 10:54:32 -0400
+Processing by QuizzesController#new as HTML
+  [1m[36mWord Load (318.2ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+  Rendered quizzes/new.haml within layouts/application (33.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (18.8ms)
+Completed 200 OK in 1120ms (Views: 747.4ms | ActiveRecord: 318.5ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 11:02:05 -0400
+Processing by QuizzesController#new as HTML
+  [1m[36mWord Load (24.7ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+  Rendered quizzes/new.haml within layouts/application (547.5ms)
+Completed 500 Internal Server Error in 1065ms
+
+ActionView::Template::Error (undefined method `persisted?' for #<Quiz:0xb253a11c>):
+    6:   %small.muted
+    7:     %em=@word.example
+    8: 
+    9: =form_for @quiz, :html => {:class => 'form-horizontal'} do |f|
+    10:   =f.hidden_field :word_id, :value => @word.id
+    11:   .control-group
+    12:     .controls
+  app/views/quizzes/new.haml:9:in `_app_views_quizzes_new_haml___416968383__651559388'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (32.6ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 11:02:31 -0400
+Processing by QuizzesController#new as HTML
+  [1m[35mWord Load (0.4ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  Rendered quizzes/new.haml within layouts/application (16.4ms)
+Completed 500 Internal Server Error in 43ms
+
+ActionView::Template::Error (undefined method `quizzes_path' for #<#<Class:0x9d21bf4>:0x9d20574>):
+    6:   %small.muted
+    7:     %em=@word.example
+    8: 
+    9: =form_for @quiz, :html => {:class => 'form-horizontal'} do |f|
+    10:   =f.hidden_field :word_id, :value => @word.id
+    11:   .control-group
+    12:     .controls
+  app/views/quizzes/new.haml:9:in `_app_views_quizzes_new_haml___416968383__651559388'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.4ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-07 11:03:14 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (95.9ms)
+Completed 200 OK in 449ms (Views: 423.4ms | ActiveRecord: 24.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-07 11:03:19 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (4.5ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 11:19:49 -0400
+Processing by QuizzesController#new as HTML
+  [1m[36mWord Load (250.2ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+  Rendered quizzes/new.haml within layouts/application (70.5ms)
+Completed 500 Internal Server Error in 328ms
+
+ActionView::Template::Error (undefined method `quizzes_path' for #<#<Class:0x9d21bf4>:0x9727028>):
+    6:   %small.muted
+    7:     %em=@word.example
+    8: 
+    9: =form_for @quiz, :html => {:class => 'form-horizontal'} do |f|
+    10:   =f.hidden_field :word_id, :value => @word.id
+    11:   .control-group
+    12:     .controls
+  app/views/quizzes/new.haml:9:in `_app_views_quizzes_new_haml___416968383__651559388'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (44.6ms)
+
+
+Started GET "/quiz/new" for 127.0.0.1 at 2012-10-07 11:20:41 -0400
+
+ActionController::RoutingError (No route matches [GET] "/quiz/new"):
+  actionpack (3.2.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.8) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.8) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.8) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.8) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.8) lib/rails/engine.rb:479:in `call'
+  railties (3.2.8) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.8) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/administrator/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/administrator/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/administrator/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/quizzes/new" for 127.0.0.1 at 2012-10-07 11:20:51 -0400
+Processing by QuizzesController#new as HTML
+  [1m[35mWord Load (0.9ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  Rendered quizzes/new.haml within layouts/application (4.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (326.8ms)
+Completed 200 OK in 527ms (Views: 331.7ms | ActiveRecord: 168.3ms)
+
+
+Started POST "/quizzes" for 127.0.0.1 at 2012-10-07 11:28:52 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "quiz"=>{"word_id"=>"2", "answer"=>"weather"}, "commit"=>"OK"}
+  [1m[35mWord Load (373.5ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+Completed 500 Internal Server Error in 380ms
+
+ActiveRecord::RecordNotFound (Couldn't find Word without an ID):
+  app/models/word.rb:6:in `check_quiz'
+  app/controllers/quizzes_controller.rb:15:in `create'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.4ms)
+
+
+Started GET "/quizzes/new" for 127.0.0.1 at 2012-10-07 11:30:46 -0400
+Processing by QuizzesController#new as HTML
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+  Rendered quizzes/new.haml within layouts/application (32.3ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (55.4ms)
+Completed 200 OK in 138ms (Views: 101.9ms | ActiveRecord: 15.7ms)
+
+
+Started POST "/quizzes" for 127.0.0.1 at 2012-10-07 11:31:13 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "quiz"=>{"word_id"=>"2", "answer"=>"weather"}, "commit"=>"OK"}
+  [1m[36mWord Load (0.7ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+Completed 500 Internal Server Error in 3ms
+
+RuntimeError (#<Quiz:0xb25b80d0>):
+  app/models/word.rb:6:in `check_quiz'
+  app/controllers/quizzes_controller.rb:15:in `create'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.4ms)
+
+
+Started GET "/quizzes/new" for 127.0.0.1 at 2012-10-07 11:31:53 -0400
+Processing by QuizzesController#new as HTML
+  [1m[35mWord Load (0.4ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  Rendered quizzes/new.haml within layouts/application (6.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (24.9ms)
+Completed 200 OK in 131ms (Views: 52.4ms | ActiveRecord: 4.4ms)
+
+
+Started POST "/quizzes" for 127.0.0.1 at 2012-10-07 11:32:18 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "quiz"=>{"word_id"=>"2", "answer"=>"weather"}, "commit"=>"OK"}
+  [1m[35mWord Load (0.9ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+Completed 500 Internal Server Error in 31ms
+
+ActiveRecord::RecordNotFound (Couldn't find Word without an ID):
+  app/models/word.rb:6:in `check_quiz'
+  app/controllers/quizzes_controller.rb:15:in `create'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.2ms)
+
+
+Started GET "/quizzes/new" for 127.0.0.1 at 2012-10-07 11:34:11 -0400
+Processing by QuizzesController#new as HTML
+  [1m[36mWord Load (0.5ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+  Rendered quizzes/new.haml within layouts/application (4.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (78.1ms)
+Completed 200 OK in 128ms (Views: 103.6ms | ActiveRecord: 4.2ms)
+
+
+Started POST "/quizzes" for 127.0.0.1 at 2012-10-07 11:34:15 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "quiz"=>{"word_id"=>"1", "answer"=>"name"}, "commit"=>"OK"}
+  [1m[36mWord Load (0.6ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+Completed 500 Internal Server Error in 3ms
+
+RuntimeError ({"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "quiz"=>{"word_id"=>"1", "answer"=>"name"}, "commit"=>"OK", "action"=>"create", "controller"=>"quizzes"}):
+  app/controllers/quizzes_controller.rb:15:in `create'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.8ms)
+
+
+Started GET "/quizzes/new" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Processing by QuizzesController#new as HTML
+  [1m[35mWord Load (0.6ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  Rendered quizzes/new.haml within layouts/application (5.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (25.1ms)
+Completed 200 OK in 76ms (Views: 51.2ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /quizzes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /shared.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 11:34:47 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/quizzes" for 127.0.0.1 at 2012-10-07 11:34:51 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "quiz"=>{"word_id"=>"1", "answer"=>"name"}, "commit"=>"OK"}
+  [1m[35mWord Load (0.7ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `word_id' for {"word_id"=>"1", "answer"=>"name"}:ActiveSupport::HashWithIndifferentAccess):
+  app/models/word.rb:6:in `check_quiz'
+  app/controllers/quizzes_controller.rb:15:in `create'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.0ms)
+
+
+Started GET "/quizzes/new" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Processing by QuizzesController#new as HTML
+  [1m[36mWord Load (0.4ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+  Rendered quizzes/new.haml within layouts/application (4.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (24.0ms)
+Completed 200 OK in 72ms (Views: 49.5ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /posts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /quizzes.js - 304 Not Modified (59ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:35 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/quizzes/new" for 127.0.0.1 at 2012-10-07 11:35:41 -0400
+Processing by QuizzesController#new as HTML
+  [1m[36mWord Load (0.8ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+  Rendered quizzes/new.haml within layouts/application (4.2ms)
+  [1m[35mUser Load (2.7ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered shared/_header_nav.haml (7.9ms)
+Completed 200 OK in 39ms (Views: 33.7ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 11:35:42 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started POST "/quizzes" for 127.0.0.1 at 2012-10-07 11:35:44 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "quiz"=>{"word_id"=>"2", "answer"=>"weather"}, "commit"=>"OK"}
+  [1m[36mWord Load (0.8ms)[0m  [1mSELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1[0m
+Completed 500 Internal Server Error in 45ms
+
+RuntimeError ({"word_id"=>"2", "answer"=>"weather"}):
+  app/models/word.rb:6:in `check_quiz'
+  app/controllers/quizzes_controller.rb:15:in `create'
+
+
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /home/administrator/.rvm/gems/ruby-1.9.3-p194@my-own/gems/actionpack-3.2.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
+
+
+Started GET "/quizzes/new" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Processing by QuizzesController#new as HTML
+  [1m[35mWord Load (0.5ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  Rendered quizzes/new.haml within layouts/application (8.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (27.3ms)
+Completed 200 OK in 149ms (Views: 123.1ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /session.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:22 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started POST "/quizzes" for 127.0.0.1 at 2012-10-07 11:36:24 -0400
+Processing by QuizzesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4YaJF/TVCoDRFbUuu0vriNuw+Wo3PUclGkZUxt3rNng=", "quiz"=>{"word_id"=>"1", "answer"=>"name"}, "commit"=>"OK"}
+  [1m[35mWord Load (0.6ms)[0m  SELECT `words`.* FROM `words` ORDER BY RAND() LIMIT 1
+  [1m[36mWord Load (0.2ms)[0m  [1mSELECT `words`.* FROM `words` WHERE `words`.`id` = 1 LIMIT 1[0m
+  [1m[35mScore Load (125.9ms)[0m  SELECT `scores`.* FROM `scores` LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `scores`.* FROM `scores` LIMIT 1[0m
+  [1m[35m (46.9ms)[0m  BEGIN
+  [1m[36m (169.3ms)[0m  [1mUPDATE `scores` SET `right` = 3, `updated_at` = '2012-10-07 15:36:25' WHERE `scores`.`id` = 1[0m
+  [1m[35m (347.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 867ms (ActiveRecord: 794.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-07 11:36:25 -0400
+Processing by DashboardController#show as HTML
+  Rendered dashboard/show.html.erb within layouts/application (0.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered shared/_header_nav.haml (4.5ms)
+Completed 200 OK in 29ms (Views: 27.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:25 -0400
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/session.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:25 -0400
+Served asset /session.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/quizzes.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:25 -0400
+Served asset /quizzes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:25 -0400
+Served asset /posts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:25 -0400
+Served asset /dashboard.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:25 -0400
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/shared.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:25 -0400
+Served asset /shared.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:25 -0400
+Served asset /user.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.css?body=1" for 127.0.0.1 at 2012-10-07 11:36:25 -0400
+Served asset /words.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:25 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:26 -0400
+Served asset /bootstrap.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:26 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/quizzes.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:26 -0400
+Served asset /quizzes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:26 -0400
+Served asset /posts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/words.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:26 -0400
+Served asset /words.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/session.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:26 -0400
+Served asset /session.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:26 -0400
+Served asset /user.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-07 11:36:26 -0400
+Served asset /application.js - 304 Not Modified (3ms)

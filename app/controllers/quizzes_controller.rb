@@ -2,20 +2,20 @@ class QuizzesController < ApplicationController
   
   def new
     @word = Word.random
-    @quiz = Word.new
-    raise params.inspect
+    #@quiz = Word.new
+    @quiz = Quiz.new
   end
 
 
   def create
-    #raise (Word.check_quiz(params)).inspect
     @word = Word.random
-    @quiz = Word.new
-    
-    if Word.check_quiz(params) == 1
+    #@quiz = Word.new
+    @quiz = Quiz.new
+        
+    if Word.check_quiz(params[:quiz]) == 1
       redirect_to root_path
     else
-      redirect_to new_quiz_path, :note => 'Wrong answer'
+      redirect_to new_quiz_path
     end
   end
 
