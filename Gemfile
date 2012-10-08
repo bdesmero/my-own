@@ -7,6 +7,7 @@ gem 'haml', '~> 3.1.7'
 gem 'bootstrap-sass', '~> 2.0.3'
 gem 'bcrypt-ruby', '~> 3.0.1', :require => 'bcrypt'
 gem 'randumb', '~> 0.3.0'
+gem 'mechanize', '~> 2.5.1'
 
 group :assets do
   gem 'sass-rails', '~> 3.2.5'
