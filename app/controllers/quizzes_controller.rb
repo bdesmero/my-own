@@ -14,12 +14,10 @@ class QuizzesController < ApplicationController
   def create
     @word = Word.random
     @quiz = Quiz.new
-        
-    if Word.check_quiz(params[:quiz]) == 1
-      redirect_to root_path
-    else
-      redirect_to new_quiz_path
-    end
+    
+    Word.check_quiz(params[:quiz])
+    
+    redirect_to new_quiz_path
   end
   
   

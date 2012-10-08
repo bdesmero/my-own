@@ -2,7 +2,26 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#quiz-example{
+#example-link {
+  margin-top: 10px;
+}
+
+
+#quiz-answer {
+  height: 30px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+
+#quiz-container {
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+#quiz-example {
   display: none;
   margin-bottom: 10px;
 }
@@ -16,3 +35,6 @@
 #score-wrong {
   color: red;
 }
+
+
+
