@@ -12,4 +12,9 @@ class Score < ActiveRecord::Base
     Score.first.update_attributes :wrong => count + 1
   end
   
+  
+  def self.reset
+    Score.first.update_attributes :right => 0, :wrong => 0
+  end
+  
 end

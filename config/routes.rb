@@ -8,6 +8,8 @@ MyOwn::Application.routes.draw do
   
   resources :posts
   resources :words
-  resources :quizzes
+  resources :quizzes do
+    get 'reset_scores'
+  end
   
 end

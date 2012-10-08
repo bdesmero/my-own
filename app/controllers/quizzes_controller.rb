@@ -7,14 +7,12 @@ class QuizzesController < ApplicationController
 
   def new
     @word = Word.random
-    #@quiz = Word.new
     @quiz = Quiz.new
   end
 
 
   def create
     @word = Word.random
-    #@quiz = Word.new
     @quiz = Quiz.new
         
     if Word.check_quiz(params[:quiz]) == 1
@@ -22,6 +20,12 @@ class QuizzesController < ApplicationController
     else
       redirect_to new_quiz_path
     end
+  end
+  
+  
+  def reset_scores
+    Score.reset
+    redirect_to quiz_path(1)
   end
 
 end

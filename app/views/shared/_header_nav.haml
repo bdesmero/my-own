@@ -25,7 +25,7 @@
       
       .nav-collapse
         .nav.pull-right 
-          %li=link_to Score.first.right, '#', :id => 'header-score'
+          %li=link_to Score.first.right, quiz_path(1), :id => 'header-score'
           %li=link_to current_user.username, '#'    
           %li.divider-vertical       
           %li=link_to 'Logout', session_path, :method => :destroy

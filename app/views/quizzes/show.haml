@@ -7,14 +7,18 @@
   맞다
   %small.muted
     %em Correct Answers
-  %h2=@score.right  
+  %h2{:id => 'score-right'}
+    =@score.right  
 
 %h3 
   과실
   %small.muted
     %em Incorrect Answers
-  %h2=@score.wrong
+  %h2{:id => 'score-wrong'}
+    =@score.wrong
 
 
-=link_to 'Reset Scores', '#', :class => 'btn btn-mini btn-danger'
+=link_to 'Reset Scores', quiz_reset_scores_path(1), 
+  :class => 'btn btn-mini btn-danger', 
+  :confirm => 'Reset all scores to 0?'
   
