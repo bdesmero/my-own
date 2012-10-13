@@ -1,0 +1,10 @@
+%h1 Posts
+
+=link_to 'New Post', new_post_path, :class => 'btn btn-large btn-success'
+
+%br
+%br
+
+-@tags.each do |tag|
+  =link_to tag.name.titleize, '#', :class => 'btn btn-large',
+    :id => 'tag-link-' + tag.name

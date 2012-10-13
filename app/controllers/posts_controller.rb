@@ -2,6 +2,12 @@ class PostsController < ApplicationController
   
   before_filter :login_required
   
+  
+  def index
+    @tags = Tag.all
+  end
+  
+  
   def show
     @post = Post.find params[:id]
   end
