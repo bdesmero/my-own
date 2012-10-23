@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
   
+  
   private
   def login_required
     unless session[:user_id]

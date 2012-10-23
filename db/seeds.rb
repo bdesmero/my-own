@@ -30,3 +30,12 @@ puts 'Creating Words'
     index += 1
   end
   
+
+puts 'Creating Tags'
+  tags = ['food', 'sites', 'schools', 'others']
+  tags.each do |tag|  
+    Tag.create(:name => tag)
+  end
+  
+    
+  
