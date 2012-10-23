@@ -1,34 +1,36 @@
-%h1= @word.term
+#show-word
+  %h1= @word.term
 
-.form-horizontal
+  .form-horizontal
 
-  .control-group
-    .control-label
-      %label 한국어 단어
-      %small.muted
-        %em Korean Word
-    .controls
-      %input{:type => 'text', :value => @word.term, :readonly => true}
-      
+    .control-group
+      .control-label
+        %label 한국어 단어
+        %small.muted
+          %em Korean Word
+      .controls
+        %input{:type => 'text', :value => @word.term, :readonly => true}
+        
 
-  .control-group
-    .control-label
-      %label 번역
-      %small.muted
-        %em Translation
-    .controls
-      %input{:type => 'text', :value => @word.translation, :readonly => true}
+    .control-group
+      .control-label
+        %label 번역
+        %small.muted
+          %em Translation
+      .controls
+        %input{:type => 'text', :value => @word.translation, :readonly => true}
 
-  .control-group
-    .control-label
-      %label 보기
-      %small.muted
-        %em Example
-    .controls
-      %input{:type => 'text', :value => @word.example, :readonly => true}
-      %em.muted= @word.example_translation            
-      
-%hr
+    .control-group
+      .control-label
+        %label 보기
+        %small.muted
+          %em Example
+      .controls
+        %input{:type => 'text', :value => @word.example, :readonly => true}
+        %em.muted= @word.example_translation            
+        
+  %hr
 
-.btn-group
-  =link_to 'Edit', edit_word_path(@word), :class => 'btn btn-warning'
+  .btn-group.pull-right
+    =link_to 'Edit', edit_word_path(@word), :class => 'btn btn-warning'
+    =link_to 'Next Word', word_path(Word.random), :class => 'btn btn-success'

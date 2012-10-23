@@ -12,5 +12,7 @@
       #quiz-example
         %em.muted=@word.example
     
-    =f.submit 'OK', :class => 'btn btn-large btn-block btn-primary'
+    
+    =f.submit 'OK', :class => 'btn btn-large btn-primary'
+    =link_to 'Skip', new_quiz_path, :class => 'btn btn-large btn-danger'
 
