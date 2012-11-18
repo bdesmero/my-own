@@ -1,21 +1,5 @@
 MyOwn::Application.routes.draw do
 
-  get "contents/index"
-
-  get "contents/new"
-
-  get "contents/show"
-
-  get "contents/edit"
-
-  get "lessons/index"
-
-  get "lessons/new"
-
-  get "lessons/show"
-
-  get "lessons/edit"
-
   root :to => 'dashboard#show'
   
   match '/searches/:query' => 'searches#show', :as => :searches
@@ -28,6 +12,10 @@ MyOwn::Application.routes.draw do
   resources :words
   resources :quizzes do
     get 'reset_scores'
+  end
+  
+  resources :lessons do
+    resources :contents
   end
   
 end
