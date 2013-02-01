@@ -5,6 +5,7 @@ class CreateWords < ActiveRecord::Migration
       t.string :translation
       t.string :example
       t.string :example_translation
+      t.references :category
 
       t.timestamps
     end
