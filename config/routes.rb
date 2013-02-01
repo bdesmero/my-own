@@ -18,4 +18,7 @@ MyOwn::Application.routes.draw do
     resources :contents
   end
   
+  resources :categories do
+    resources :words
+  end
 end
