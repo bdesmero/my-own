@@ -48,7 +48,7 @@
         
     .controls
       =select_tag 'word[category_id]', 
-        options_from_collection_for_select(Category.all, :id, :name),
+        options_from_collection_for_select(Category.all, :id, :name, word.category_id),
         :prompt => 'Select'
 
 
