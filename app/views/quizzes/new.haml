@@ -4,7 +4,7 @@
   =form_for @quiz, :html => {:class => 'form-horizontal'} do |f|
     =f.hidden_field :word_id, :value => @word.id
     
-    =f.text_field :answer, :class => 'input-text', :placeholder => '번역',
+    =f.text_field :answer, :class => 'input-text', :placeholder => '번역 / Translation',
       :id => 'quiz-answer'
 
     .control-group
