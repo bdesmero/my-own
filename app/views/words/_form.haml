@@ -39,6 +39,18 @@
     .controls
       =f.text_field :example_translation, :class => 'input-text'
 
+  
+  .control-group
+    .control-label
+      %label 종료
+      %small.muted
+        %em Category
+        
+    .controls
+      =select_tag 'word[category_id]', 
+        options_from_collection_for_select(Category.all, :id, :name),
+        :prompt => 'Select'
+
 
   .control-group
     .controls

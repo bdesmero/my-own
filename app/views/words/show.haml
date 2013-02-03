@@ -1,16 +1,11 @@
-#show-word
-  %h1= @word.term
+#word-show
+  %h1
+    =@word.term
+    -if @word.category.present?
+      %span.label.label-info.word-category.pull-right
+        =@word.category.name
 
-  .form-horizontal
-
-    .control-group
-      .control-label
-        %label 한국어 단어
-        %small.muted
-          %em Korean Word
-      .controls
-        %input{:type => 'text', :value => @word.term, :readonly => true}
-        
+  .form-horizontal        
 
     .control-group
       .control-label
@@ -27,6 +22,8 @@
           %em Example
       .controls
         %input{:type => 'text', :value => @word.example, :readonly => true}
+        %br
+        %br
         %em.muted= @word.example_translation            
         
   %hr

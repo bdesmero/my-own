@@ -1,5 +1,8 @@
 class Word < ActiveRecord::Base
-  attr_accessible :example_translation, :example, :term, :translation
+  attr_accessible :example_translation, :example, :term, :translation,
+    :category_id
+  
+  belongs_to :category
   
   paginates_per 10
   
