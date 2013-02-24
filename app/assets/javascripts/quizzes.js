@@ -11,8 +11,10 @@ $(document).ready(function(){
 
   
   $('.submit').on('click', function(e){
-    var answer = $('.quiz-answer').val(),
-      correctAnswer = $('#translation').val();
+    var answer = $('.quiz-answer').val().toLowerCase(),
+      correctAnswer = $('#translation').val().toLowerCase();
+    
+    console.log(correctAnswer);
       
     if (answer == correctAnswer){
       $('.quiz-answer').attr('id', 'inputWarning');
