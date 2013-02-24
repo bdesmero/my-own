@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
-gem 'mysql2', '~> 0.3.11'
 gem 'jquery-rails', '~> 2.1.2'
 gem 'haml', '~> 3.1.7'
 gem 'bootstrap-sass', '~> 2.0.3'
@@ -19,5 +18,11 @@ end
 group :development do
   gem 'capistrano'
   gem 'annotate'
+  gem 'mysql2', '~> 0.3.11'
+end
+
+
+group :production do
+  gem 'sqlite3', '~> 1.3.6'
 end
 
