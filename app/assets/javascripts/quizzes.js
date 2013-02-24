@@ -3,28 +3,33 @@
 
 $(document).ready(function(){
   
-  $('#example-link').on('click', function(e){
-    var display = $('#quiz-example').css('display');
-    if(display == 'none'){ $('#quiz-example').slideDown(); }
-    else{ $('#quiz-example').slideUp(); }
+  var exampleLink = $('#example-link'),
+    submit = $('.submit');
+  
+  exampleLink.on('click', function(e){
+    var display = $('#quiz-example').css('display'),
+      quizExample = $('#quiz-example');
+    
+    if(display == 'none'){ quizExample.slideDown(); }
+    else{ quizExample.slideUp(); }
   });
 
   
-  $('.submit').on('click', function(e){
+  submit.on('click', function(e){
     var answer = $('.quiz-answer').val().toLowerCase(),
-      correctAnswer = $('#translation').val().toLowerCase();
-    
-    console.log(correctAnswer);
+      translation = $('#translation').val().toLowerCase(),
+      quizAnswer = $('.quiz-answer'),
+      correctAnswer = $('.correct-answer');
       
-    if (answer == correctAnswer){
-      $('.quiz-answer').attr('id', 'inputWarning');
-      $('.quiz-answer').css('background-color', '#BCE954');
+    if (answer == translation){
+      quizAnswer.attr('id', 'inputWarning');
+      quizAnswer.css('background-color', '#BCE954');
     }else {
-      if ($('.correct-answer').css('display') == 'none'){  
+      if (correctAnswer.css('display') == 'none'){  
         e.preventDefault();
-        $('.quiz-answer').attr('disabled', true);
-        $('.quiz-answer').css('background-color', '#F75D59');
-        $('.correct-answer').slideDown();  
+        quizAnswer.attr('disabled', true);
+        quizAnswer.css('background-color', '#F75D59');
+        correctAnswer.slideDown();  
       }
     }
   });
