@@ -16,9 +16,12 @@ $(document).ready(function(){
       
     if (answer == correctAnswer){
       $('.quiz-answer').attr('id', 'inputWarning');
+      $('.quiz-answer').css('background-color', '#BCE954');
     }else {
       if ($('.correct-answer').css('display') == 'none'){  
         e.preventDefault();
+        $('.quiz-answer').attr('disabled', true);
+        $('.quiz-answer').css('background-color', '#F75D59');
         $('.correct-answer').slideDown();  
       }
     }
