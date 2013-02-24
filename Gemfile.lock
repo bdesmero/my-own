@@ -83,6 +83,7 @@ GEM
       net-ssh (>= 1.99.1)
     nokogiri (1.5.5)
     ntlm-http (0.1.1)
+    pg (0.14.1)
     polyglot (0.3.3)
     rack (1.4.1)
     rack-cache (1.2)
@@ -151,6 +152,7 @@ DEPENDENCIES
   jquery-rails (~> 2.1.2)
   kaminari (~> 0.14.1)
   mechanize (~> 2.5.1)
+  pg
   rails (= 3.2.8)
   randumb (~> 0.3.0)
   sass-rails (~> 3.2.5)
