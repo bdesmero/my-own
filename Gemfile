@@ -18,11 +18,11 @@ end
 group :development do
   gem 'capistrano'
   gem 'annotate'
-  gem 'sqlite3-ruby'
+  gem 'sqlite3'
 end
 
 
 group :production do
-  gem 'sqlite3-ruby'
+  gem 'sqlite3'
 end
 
