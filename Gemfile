@@ -18,11 +18,11 @@ end
 group :development do
   gem 'capistrano'
   gem 'annotate'
-  gem 'mysql2', '~> 0.3.11'
+  gem 'sqlite3-ruby'
 end
 
 
 group :production do
-  gem 'sqlite3', '~> 1.3.6'
+  gem 'sqlite3-ruby'
 end
 
