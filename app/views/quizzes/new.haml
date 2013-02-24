@@ -3,16 +3,20 @@
 
   =form_for @quiz, :html => {:class => 'form-horizontal'} do |f|
     =f.hidden_field :word_id, :value => @word.id
+    =hidden_field_tag 'translation', @word.translation
     
-    =f.text_field :answer, :class => 'input-text', :placeholder => '번역 / Translation',
-      :id => 'quiz-answer'
+    =f.text_field :answer, 
+      :class => 'input-text quiz-answer', 
+      :placeholder => '번역 / Translation'
+    
+    .correct-answer
+      =@word.translation
 
     .control-group
       =link_to '보기', '#', :class => 'btn btn-mini btn-warning', :id => 'example-link'
       #quiz-example
         %em.muted=@word.example
     
-    
-    =f.submit 'OK', :class => 'btn btn-large btn-primary'
+    =f.submit 'OK', :class => 'btn btn-large btn-primary submit'
     =link_to 'Skip', new_quiz_path, :class => 'btn btn-large btn-danger'
 

@@ -2,6 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.correct-answer {
+  display: none;
+  color: green;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+
 #example-link {
   margin-top: 10px;
 }
