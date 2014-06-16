@@ -5,7 +5,7 @@ development:
   database: my_own_development
   pool: 5
   username: root
-  password:
+  password: password
 
 test:
   adapter: mysql2
@@ -14,4 +14,4 @@ test:
   database: my_own_test
   pool: 5
   username: root
-  password: 
+  password: password
